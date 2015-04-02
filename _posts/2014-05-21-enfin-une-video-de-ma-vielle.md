@@ -3,7 +3,6 @@ layout: post
 title: A video of my Hurdy-Gurdy !
 date: 2014-05-21 10:31
 author: admin
-comments: true
 lang: en
 ---
 As promised since a few month, I'm finally posting a video of my hurdy-gurdy :

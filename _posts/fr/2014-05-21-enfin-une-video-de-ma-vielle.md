@@ -3,8 +3,9 @@ layout: post
 title: Enfin une vidéo de ma vielle !
 date: 2014-05-21 10:31
 author: admin
-comments: true
 lang: fr
+categories:
+    - fr
 ---
 Comme promis depuis quelques mois, voici enfin une vidéo de l'instrument en action :
 

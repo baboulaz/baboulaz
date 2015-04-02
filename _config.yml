@@ -1,0 +1,36 @@
+# Site settings
+title: Construction d'une vielle a roue
+email: vielle@schieberlein.com
+description: > # this means to ignore newlines until "baseurl:"
+  Récit de la construction d'une vielle à roue – Baptiste Schieberlein.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vielle.schieberlein.com" # the base hostname & protocol for your site
+twitter_username: baboulaz
+github_username: baboulaz
+permalink: /:categories/:year/:month/:title
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+
+defaults:
+  # Default language
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en"
+  # Language for everything inside `/en`
+  -
+    scope:
+      path: "fr"
+    values:
+      lang: "fr"
+  # Language for English posts
+  -
+    scope:
+      path: "fr/_posts"
+      type: "posts" # As of version 2.3.0, Jekyll uses plural keywords for type
+    values:
+      lang: "fr"

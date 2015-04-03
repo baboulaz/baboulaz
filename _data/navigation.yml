@@ -1,0 +1,33 @@
+- title: Accueil
+  url: "/"
+  side: left
+
+- title: Construction d'une vielle
+  url: "/getting-started/"
+  side: left
+  dropdown:
+  - title: Plans
+    url: "/plans/"
+  - title: "Caisse de resonnance"
+    url: "/blog/archive/"
+  - title: "Chevalets et cordier"
+    url: "/blog/archive/"
+  - title: "Clavier"
+    url: "/blog/archive/"
+  - title: "Tete"
+    url: "/blog/archive/"
+  - title: "Finission"
+    url: "/blog/archive/"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: Blog
+    url: "/blog/"
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Me contacter"
+  url: "/contact/"
+  side: right

@@ -1,20 +1,1050 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Construction d&#39;une vielle a roue</title>
+    <description>Récit de la construction d&#39;une vielle à roue – Baptiste Schieberlein.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>A video of my Hurdy-Gurdy !</title>
+        <description>&lt;p&gt;As promised since a few month, I’m finally posting a video of my hurdy-gurdy :&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/8Y1Cln9dFIg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 21 May 2014 10:31:00 +0200</pubDate>
+        <link>http://localhost:4000/en/2014/05/21/video-of-my-hurdy-gurdy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/en/2014/05/21/video-of-my-hurdy-gurdy.html</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Enfin une vidéo de ma vielle !</title>
+        <description>&lt;p&gt;Comme promis depuis quelques mois, voici enfin une vidéo de l’instrument en action :&lt;/p&gt;
+
+&lt;div class=&quot;flex-video&quot;&gt;
+	&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/8Y1Cln9dFIg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 21 May 2014 10:31:00 +0200</pubDate>
+        <link>http://localhost:4000/fr/2014/05/21/enfin-une-video-de-ma-vielle.html</link>
+        <guid isPermaLink="true">http://localhost:4000/fr/2014/05/21/enfin-une-video-de-ma-vielle.html</guid>
+      </item>
+    
+      <item>
+        <title>Assemblage final</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hello everybody!&lt;/p&gt;
+
+&lt;p&gt;To continue my last post here is the hurdy-gurdy after 8 coats of French polish and 1 final coat of preserving polish called “popote” in France.
+&lt;a href=&quot;https://lh4.googleusercontent.com/-FumEgw4JRls/UmbrvOK9lTI/AAAAAAAAGs0/a6eCfvUAl48/s1024/IMGP4121.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4121.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-FumEgw4JRls/UmbrvOK9lTI/AAAAAAAAGs0/a6eCfvUAl48/s600/IMGP4121.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I then started to assemble the hurdy-gurdy. In order to do that you have to remove the varnish from the places where the pieces are glued together!&lt;/p&gt;
+
+&lt;p&gt;I started with the head. I put some masking tape in order to delimit the place where to scrap the varnish.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-GvbPJPdONRY/UmbrwV6_7FI/AAAAAAAAGs8/hxsniRgzvo0/s1024/IMGP4122.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4122.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-GvbPJPdONRY/UmbrwV6_7FI/AAAAAAAAGs8/hxsniRgzvo0/s600/IMGP4122.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;With the blade of a cutter and a knife I scraped the varnish and I tried not to go over the limit.
+&lt;a href=&quot;https://lh5.googleusercontent.com/-fZjW50ZcoZ4/UmbrxjiUMxI/AAAAAAAAGtE/a4vLsY4GaU0/s1024/IMGP4123.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4123.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-fZjW50ZcoZ4/UmbrxjiUMxI/AAAAAAAAGtE/a4vLsY4GaU0/s600/IMGP4123.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The result:
+&lt;a href=&quot;https://lh4.googleusercontent.com/-RUzkTN3jyaM/UmbrzNYdybI/AAAAAAAAGtM/Gyrh4ukthEk/s1024/IMGP4125.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4125.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-RUzkTN3jyaM/UmbrzNYdybI/AAAAAAAAGtM/Gyrh4ukthEk/s600/IMGP4125.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I glued and screw the head.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-3rtN8EoXBlI/Umbr0DKo6MI/AAAAAAAAGtU/MxxczEF7AVc/s1024/IMGP4127.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4127.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-3rtN8EoXBlI/Umbr0DKo6MI/AAAAAAAAGtU/MxxczEF7AVc/s600/IMGP4127.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here I did the same with the tail piece:
+&lt;a href=&quot;https://lh3.googleusercontent.com/-IzPVi3kflPQ/Umbr1e3XNEI/AAAAAAAAGtc/xmMOtWTP0EM/s1024/IMGP4128.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4128.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-IzPVi3kflPQ/Umbr1e3XNEI/AAAAAAAAGtc/xmMOtWTP0EM/s600/IMGP4128.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I took advantage of the drying to put the mechanical pegs on the hurdy-gurdy head !
+&lt;a href=&quot;https://lh5.googleusercontent.com/-Q0CHL3BHSSc/Umbr2fGV4eI/AAAAAAAAGtk/-C_8F4spJHs/s1024/IMGP4129.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4129.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-Q0CHL3BHSSc/Umbr2fGV4eI/AAAAAAAAGtk/-C_8F4spJHs/s600/IMGP4129.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I scraped the varnish in order to glue the keyboard.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-4AlTs5Jl2_M/Umbr3SB_wnI/AAAAAAAAGts/VJAp5ELXXxI/s1024/IMGP4130.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4130.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-4AlTs5Jl2_M/Umbr3SB_wnI/AAAAAAAAGts/VJAp5ELXXxI/s600/IMGP4130.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The keyboard is glued and it is drying!
+&lt;a href=&quot;https://lh4.googleusercontent.com/-WhfnsPrrQcA/Umbr4URggNI/AAAAAAAAGt0/21vP6jYWN2c/s1024/IMGP4135.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4135.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-WhfnsPrrQcA/Umbr4URggNI/AAAAAAAAGt0/21vP6jYWN2c/s600/IMGP4135.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also built a case using plywood and foam. I didn’t take many pictures. I glued some artificial leather on the outside and red velvet on the inside!
+&lt;a href=&quot;https://lh6.googleusercontent.com/-gEjTpNsrfQA/Umbr5q0N7gI/AAAAAAAAGt8/_CpZ1JwxE04/s1024/IMGP4138.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4138.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-gEjTpNsrfQA/Umbr5q0N7gI/AAAAAAAAGt8/_CpZ1JwxE04/s600/IMGP4138.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the keyboard was correctly glued on the soundbox, I attached the lid onto the keyboard using 3 little hinges:
+&lt;a href=&quot;https://lh3.googleusercontent.com/-m6X74oWKpnU/Umbr6thOz4I/AAAAAAAAGuE/yeVBMyTTbSY/s1024/IMGP4139.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4139.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-m6X74oWKpnU/Umbr6thOz4I/AAAAAAAAGuE/yeVBMyTTbSY/s600/IMGP4139.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-W5qVIp_uKi0/Umbr7iM-9-I/AAAAAAAAGuM/y7USqVa5p6w/s1024/IMGP4141.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4141.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-W5qVIp_uKi0/Umbr7iM-9-I/AAAAAAAAGuM/y7USqVa5p6w/s600/IMGP4141.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-4NZpOnlQEjM/Umbr8me2OlI/AAAAAAAAGuU/bu6aigJz4Ps/s1024/IMGP4142.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4142.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-4NZpOnlQEjM/Umbr8me2OlI/AAAAAAAAGuU/bu6aigJz4Ps/s600/IMGP4142.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-ROUQL-rKvuo/Umbr9zGq_XI/AAAAAAAAGuc/j19MEpjwYL4/s1024/IMGP4143.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4143.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-ROUQL-rKvuo/Umbr9zGq_XI/AAAAAAAAGuc/j19MEpjwYL4/s600/IMGP4143.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here I’m gluing the 2 bourdon bridges:
+&lt;a href=&quot;https://lh5.googleusercontent.com/-LiWgXyyxyDo/Umbr-49PiyI/AAAAAAAAGuk/eTO1SpjCUqY/s1024/IMGP4147.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4147.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-LiWgXyyxyDo/Umbr-49PiyI/AAAAAAAAGuk/eTO1SpjCUqY/s600/IMGP4147.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I put all the strings in place (but I didn’t take pictures because I was so impatient to see the result).&lt;/p&gt;
+
+&lt;p&gt;Here are some pictures of the almost finished hurdy-gurdy (I still need to put the resonance strings in place and to build the wheel cover):
+&lt;a href=&quot;https://lh4.googleusercontent.com/-POV-dN2hm5I/UmbsBI0pFNI/AAAAAAAAGu0/LuzASgvtZ9g/s1024/IMGP4150.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4150.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-POV-dN2hm5I/UmbsBI0pFNI/AAAAAAAAGu0/LuzASgvtZ9g/s600/IMGP4150.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-QTg1sW-F3pM/UmbsCN1dy2I/AAAAAAAAGu8/6ODVbnBLTck/s1024/IMGP4152.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4152.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-QTg1sW-F3pM/UmbsCN1dy2I/AAAAAAAAGu8/6ODVbnBLTck/s600/IMGP4152.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh5.googleusercontent.com/--5wYCEysO9g/UmbsDYhBKBI/AAAAAAAAGvE/eJEaQZQ_zmg/s1024/IMGP4154.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4154.jpg&quot; src=&quot;https://lh5.googleusercontent.com/--5wYCEysO9g/UmbsDYhBKBI/AAAAAAAAGvE/eJEaQZQ_zmg/s600/IMGP4154.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh6.googleusercontent.com/-bLh5710cRdc/UmbsEQQmpzI/AAAAAAAAGvM/G6XW0u8gJU8/s1024/IMGP4155.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4155.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-bLh5710cRdc/UmbsEQQmpzI/AAAAAAAAGvM/G6XW0u8gJU8/s600/IMGP4155.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And one last picture of the hurdy-gurdy in its case:
+&lt;a href=&quot;https://lh4.googleusercontent.com/-bR8R6jWd-4o/UmbsADId-vI/AAAAAAAAGus/82nLNWnwLN8/s1024/IMGP4149.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4149.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-bR8R6jWd-4o/UmbsADId-vI/AAAAAAAAGus/82nLNWnwLN8/s600/IMGP4149.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It is starting to make some sounds. I played a little bit on it, but it still needs a few hours of adjustments!!!&lt;/p&gt;
+
+&lt;p&gt;I will post a video when the sound is a little more audible!&lt;/p&gt;
+
+&lt;p&gt;Bye!&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjour à tous !&lt;/p&gt;
+
+&lt;p&gt;Pour reprendre la suite du dernier post voici la vielle après 8 couches de vernis à la gomme laque et 1 petite couche de popote à la fin.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-FumEgw4JRls/UmbrvOK9lTI/AAAAAAAAGs0/a6eCfvUAl48/s1024/IMGP4121.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4121.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-FumEgw4JRls/UmbrvOK9lTI/AAAAAAAAGs0/a6eCfvUAl48/s600/IMGP4121.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai ensuite attaqué l’assemblage de la vielle. Pour cela il faut enlever le vernis aux endroits où l’on va coller les différentes pièces !&lt;/p&gt;
+
+&lt;p&gt;J’ai commencé par la tête. D’abord j’ai déligné l’endroit à gratter avec de l’adhésif de masquage (ça n’arrache pas le vernis comme ça).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-GvbPJPdONRY/UmbrwV6_7FI/AAAAAAAAGs8/hxsniRgzvo0/s1024/IMGP4122.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4122.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-GvbPJPdONRY/UmbrwV6_7FI/AAAAAAAAGs8/hxsniRgzvo0/s600/IMGP4122.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite avec la lame d’un cutter et un couteau j’ai gratté tout le vernis en essayant de ne pas déborder.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-fZjW50ZcoZ4/UmbrxjiUMxI/AAAAAAAAGtE/a4vLsY4GaU0/s1024/IMGP4123.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4123.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-fZjW50ZcoZ4/UmbrxjiUMxI/AAAAAAAAGtE/a4vLsY4GaU0/s600/IMGP4123.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et voilà le résultat :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-RUzkTN3jyaM/UmbrzNYdybI/AAAAAAAAGtM/Gyrh4ukthEk/s1024/IMGP4125.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4125.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-RUzkTN3jyaM/UmbrzNYdybI/AAAAAAAAGtM/Gyrh4ukthEk/s600/IMGP4125.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai collé et vissé la tête.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-3rtN8EoXBlI/Umbr0DKo6MI/AAAAAAAAGtU/MxxczEF7AVc/s1024/IMGP4127.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4127.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-3rtN8EoXBlI/Umbr0DKo6MI/AAAAAAAAGtU/MxxczEF7AVc/s600/IMGP4127.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ici j’ai fait la même chose avec le cordier :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-IzPVi3kflPQ/Umbr1e3XNEI/AAAAAAAAGtc/xmMOtWTP0EM/s1024/IMGP4128.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4128.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-IzPVi3kflPQ/Umbr1e3XNEI/AAAAAAAAGtc/xmMOtWTP0EM/s600/IMGP4128.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai profité du séchage pour fixer les chevilles mécaniques sur la tête !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-Q0CHL3BHSSc/Umbr2fGV4eI/AAAAAAAAGtk/-C_8F4spJHs/s1024/IMGP4129.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4129.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-Q0CHL3BHSSc/Umbr2fGV4eI/AAAAAAAAGtk/-C_8F4spJHs/s600/IMGP4129.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai gratté le vernis pour pouvoir coller le clavier.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-4AlTs5Jl2_M/Umbr3SB_wnI/AAAAAAAAGts/VJAp5ELXXxI/s1024/IMGP4130.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4130.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-4AlTs5Jl2_M/Umbr3SB_wnI/AAAAAAAAGts/VJAp5ELXXxI/s600/IMGP4130.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La clavier est collé et ça sèche !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-WhfnsPrrQcA/Umbr4URggNI/AAAAAAAAGt0/21vP6jYWN2c/s1024/IMGP4135.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4135.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-WhfnsPrrQcA/Umbr4URggNI/AAAAAAAAGt0/21vP6jYWN2c/s600/IMGP4135.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Entre temps je me suis aussi construit un étui en contreplaqué et avec de la mousse. Je n’ai pas fait beaucoup de photos de la construction de celui-ci ! J’ai utilisé du contre-plaqué et des petits tasseaux. J’ai collé sur l’extérieur un faux cuir et à l’intérieur j’ai collé de la mousse (d’un matelas) et un velours rouge par dessus !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-gEjTpNsrfQA/Umbr5q0N7gI/AAAAAAAAGt8/_CpZ1JwxE04/s1024/IMGP4138.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4138.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-gEjTpNsrfQA/Umbr5q0N7gI/AAAAAAAAGt8/_CpZ1JwxE04/s600/IMGP4138.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois le clavier bien collé j’ai pu attacher le couvercle du clavier au clavier à l’aide de trois petites charnières :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-m6X74oWKpnU/Umbr6thOz4I/AAAAAAAAGuE/yeVBMyTTbSY/s1024/IMGP4139.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4139.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-m6X74oWKpnU/Umbr6thOz4I/AAAAAAAAGuE/yeVBMyTTbSY/s600/IMGP4139.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-W5qVIp_uKi0/Umbr7iM-9-I/AAAAAAAAGuM/y7USqVa5p6w/s1024/IMGP4141.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4141.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-W5qVIp_uKi0/Umbr7iM-9-I/AAAAAAAAGuM/y7USqVa5p6w/s600/IMGP4141.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-4NZpOnlQEjM/Umbr8me2OlI/AAAAAAAAGuU/bu6aigJz4Ps/s1024/IMGP4142.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4142.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-4NZpOnlQEjM/Umbr8me2OlI/AAAAAAAAGuU/bu6aigJz4Ps/s600/IMGP4142.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-ROUQL-rKvuo/Umbr9zGq_XI/AAAAAAAAGuc/j19MEpjwYL4/s1024/IMGP4143.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4143.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-ROUQL-rKvuo/Umbr9zGq_XI/AAAAAAAAGuc/j19MEpjwYL4/s600/IMGP4143.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite collage des chevalets des bourdons :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-LiWgXyyxyDo/Umbr-49PiyI/AAAAAAAAGuk/eTO1SpjCUqY/s1024/IMGP4147.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4147.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-LiWgXyyxyDo/Umbr-49PiyI/AAAAAAAAGuk/eTO1SpjCUqY/s600/IMGP4147.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Suite à ça j’ai installé toutes les cordes (je n’ai pas fait de photos car j’étais trop impatient de voir le résultat !&lt;/p&gt;
+
+&lt;p&gt;Donc voilà quelques photos de la vielle presque finie (il manque les cordes sympathiques à installer et le cache roue à fabriquer) :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-POV-dN2hm5I/UmbsBI0pFNI/AAAAAAAAGu0/LuzASgvtZ9g/s1024/IMGP4150.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4150.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-POV-dN2hm5I/UmbsBI0pFNI/AAAAAAAAGu0/LuzASgvtZ9g/s600/IMGP4150.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-QTg1sW-F3pM/UmbsCN1dy2I/AAAAAAAAGu8/6ODVbnBLTck/s1024/IMGP4152.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4152.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-QTg1sW-F3pM/UmbsCN1dy2I/AAAAAAAAGu8/6ODVbnBLTck/s600/IMGP4152.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/--5wYCEysO9g/UmbsDYhBKBI/AAAAAAAAGvE/eJEaQZQ_zmg/s1024/IMGP4154.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4154.jpg&quot; src=&quot;https://lh5.googleusercontent.com/--5wYCEysO9g/UmbsDYhBKBI/AAAAAAAAGvE/eJEaQZQ_zmg/s600/IMGP4154.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-bLh5710cRdc/UmbsEQQmpzI/AAAAAAAAGvM/G6XW0u8gJU8/s1024/IMGP4155.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4155.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-bLh5710cRdc/UmbsEQQmpzI/AAAAAAAAGvM/G6XW0u8gJU8/s600/IMGP4155.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et une dernière avec la vielle dans son étui :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-bR8R6jWd-4o/UmbsADId-vI/AAAAAAAAGus/82nLNWnwLN8/s1024/IMGP4149.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4149.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-bR8R6jWd-4o/UmbsADId-vI/AAAAAAAAGus/82nLNWnwLN8/s600/IMGP4149.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà ça commence à sonner. J’ai pu en jouer un peu, mais bon il reste encore quelques bonnes heures de réglages !!!&lt;/p&gt;
+
+&lt;p&gt;En tout cas quand ça sera un peu plus audible je posterai une petite vidéo !&lt;/p&gt;
+
+&lt;p&gt;A bientôt !&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Oct 2013 07:31:00 +0200</pubDate>
+        <link>http://localhost:4000/assemblage/finission/vernis/2013/10/23/assemblage-final.html</link>
+        <guid isPermaLink="true">http://localhost:4000/assemblage/finission/vernis/2013/10/23/assemblage-final.html</guid>
+      </item>
+    
+      <item>
+        <title>Fabrication de la tête et début du vernissage</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hi everybody!&lt;/p&gt;
+
+&lt;p&gt;Today we will see how I made the head and also the start of the French polish!&lt;/p&gt;
+
+&lt;p&gt;But before starting let me introduce you a newcomer at my home: A Kity 613 band-saw that I will use from now on&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-x5A8MiEIVLg/UkiUXv056pI/AAAAAAAAGqY/u933lj_ICf8/s720/IMGP4059.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4059.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-x5A8MiEIVLg/UkiUXv056pI/AAAAAAAAGqY/u933lj_ICf8/s600/IMGP4059.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s start with the head. I took a wood cut of 150&lt;em&gt;100&lt;/em&gt;100mm. I hollow out the bottom of the head with a circular saw (I didn’t took pictures while doing it because I didn’t do it at home).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-QhnWAtpCexA/Uj9Xx1LVl9I/AAAAAAAAGVg/KQed8SD1Il8/s1024/IMGP4031.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4031.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-QhnWAtpCexA/Uj9Xx1LVl9I/AAAAAAAAGVg/KQed8SD1Il8/s600/IMGP4031.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-gr3CbbCx0OU/Uj9XzIgon_I/AAAAAAAAGVo/rM3w1OTX-4Q/s720/IMGP4032.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4032.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-gr3CbbCx0OU/Uj9XzIgon_I/AAAAAAAAGVo/rM3w1OTX-4Q/s600/IMGP4032.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I used my new band-saw to cut the outlines.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-tkuBAjs626o/UkiUZKqe6LI/AAAAAAAAGqg/dO6x8BLuND8/s1024/IMGP4060.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4060.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-tkuBAjs626o/UkiUZKqe6LI/AAAAAAAAGqg/dO6x8BLuND8/s600/IMGP4060.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I drilled the peg holes using a lot of little wedges in order to have the holes in the correct axis.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-mRAVLqihyUY/UkiUePrusGI/AAAAAAAAGrA/0amXa4at3DA/s1024/IMGP4064.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4064.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-mRAVLqihyUY/UkiUePrusGI/AAAAAAAAGrA/0amXa4at3DA/s600/IMGP4064.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I wanted to make a carved head like traditional hurdy-gurdies. But as I never did any wood carving before, I thought that I will try to make something not too ugly, if it is ok I will keep it, otherwise I can just cut the end of the piece!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-wbZlBP6JOdc/UkiUfeXRR3I/AAAAAAAAGrI/B0PyIPrUaX8/s1024/IMGP4066.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4066.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-wbZlBP6JOdc/UkiUfeXRR3I/AAAAAAAAGrI/B0PyIPrUaX8/s600/IMGP4066.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-1nNSsrlB_DI/UkiUjUhOI-I/AAAAAAAAGrg/kf5bz6wzfKg/s1024/IMGP4074.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4074.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-1nNSsrlB_DI/UkiUjUhOI-I/AAAAAAAAGrg/kf5bz6wzfKg/s600/IMGP4074.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I am still far from real carved hurdy-gurdy head, but I still very satisfied for a first time so I choose to keep it!
+&lt;a href=&quot;https://lh4.googleusercontent.com/-XLT7VJAnwWI/UkiUlhpl8uI/AAAAAAAAGrw/iJDW5MTh5NA/s1024/IMGP4077.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4077.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-XLT7VJAnwWI/UkiUlhpl8uI/AAAAAAAAGrw/iJDW5MTh5NA/s600/IMGP4077.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After the head I prepared and cut the tailpiece:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-hTlC8QIRFLs/UkiUaq7FhUI/AAAAAAAAGqo/BdIO6f-KMvk/s1024/IMGP4061.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4061.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-hTlC8QIRFLs/UkiUaq7FhUI/AAAAAAAAGqo/BdIO6f-KMvk/s600/IMGP4061.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-aPhqfygC_JU/UkiUc-nz5bI/AAAAAAAAGq4/QbpW6QA0dlI/s1024/IMGP4063.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4063.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-aPhqfygC_JU/UkiUc-nz5bI/AAAAAAAAGq4/QbpW6QA0dlI/s600/IMGP4063.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The tailpiece once finished:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-Qm7-4fYzaco/UkiUgl-mQpI/AAAAAAAAGrQ/VIH8qyJ4u4g/s1024/IMGP4068.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4068.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-Qm7-4fYzaco/UkiUgl-mQpI/AAAAAAAAGrQ/VIH8qyJ4u4g/s600/IMGP4068.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Afterwards I could start the sanding of all the pieces of the hurdy-gurdy. I started with grit 100 then 180, and 500 and at last 1000. (I didn’t take picture as I thought that it wasn’t very interesting to see some dust).&lt;/p&gt;
+
+&lt;p&gt;Once everything nicely sanded, I put a linseed oil coat on all the pieces and I left it dry.&lt;/p&gt;
+
+&lt;p&gt;After that I had to put a wood sealer. I sprinkled all the pieces with some pumice powder, and with a rubbing pad lubricated with alcohol and linseed oil I rub the whole surface by making circles:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-rb2s1RC83jQ/UkiUm2oEHeI/AAAAAAAAGr4/CeFufjxraz4/s1024/IMGP4079.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4079.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-rb2s1RC83jQ/UkiUm2oEHeI/AAAAAAAAGr4/CeFufjxraz4/s600/IMGP4079.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-cLMNe4U0fTE/UkiUoPh1yfI/AAAAAAAAGsA/vW6dZW8YAog/s1024/IMGP4081.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4081.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-cLMNe4U0fTE/UkiUoPh1yfI/AAAAAAAAGsA/vW6dZW8YAog/s600/IMGP4081.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also prepared a bottle of shellac: I put shellac flakes to about a third of the bottle and I filled the rest with 95° alcohol. After a few days here is the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-MuSTxn9TMcE/UkiVCs7e_WI/AAAAAAAAGsQ/gS0baGvHtZg/s720/IMGP4084.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4084.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-MuSTxn9TMcE/UkiVCs7e_WI/AAAAAAAAGsQ/gS0baGvHtZg/s600/IMGP4084.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For doing the French polishing I used a rubbing pad that I filled regularly with shellac and I also put a drop of petrolatum oil so the pad will glide nicely on the wood.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-n5Y2UQXaIxw/UkiVBQNqOJI/AAAAAAAAGsI/p_Tq3wizxHQ/s1024/IMGP4082.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4082.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-n5Y2UQXaIxw/UkiVBQNqOJI/AAAAAAAAGsI/p_Tq3wizxHQ/s600/IMGP4082.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After one coat of French polish:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-yFPnWlu8_z4/UkiVDysyM1I/AAAAAAAAGsY/VyChYIz22UU/s1024/IMGP4087.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4087.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-yFPnWlu8_z4/UkiVDysyM1I/AAAAAAAAGsY/VyChYIz22UU/s600/IMGP4087.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the first coat as dried, I sprinkled the hurdy-gurdy with some pumice powder again and I rubbed it with some newspaper put into a ball in order to level out the varnish.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-AS7yk1gWgX0/UkiVFKJU-DI/AAAAAAAAGsg/9XImrUxj91s/s1024/IMGP4089.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4089.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-AS7yk1gWgX0/UkiVFKJU-DI/AAAAAAAAGsg/9XImrUxj91s/s600/IMGP4089.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That is all for today, I still need to put 7 or 8 other coats of shellac… and then I will be able to glue everything together!&lt;/p&gt;
+
+&lt;p&gt;To the next post!&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjours à tous&lt;/p&gt;
+
+&lt;p&gt;Aujourd’hui nous allons voir la construction de la tête de la vielle et le début du vernissage !&lt;/p&gt;
+
+&lt;p&gt;Mais avant de commencer laissez-moi vous présenter une petite nouvelle à la maison : Une Kity 613 qui va dorénavant bien me servir :D&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-x5A8MiEIVLg/UkiUXv056pI/AAAAAAAAGqY/u933lj_ICf8/s720/IMGP4059.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4059.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-x5A8MiEIVLg/UkiUXv056pI/AAAAAAAAGqY/u933lj_ICf8/s600/IMGP4059.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Commençons donc par la fabrication de la tête. J’ai pris un débit de 150&lt;em&gt;100&lt;/em&gt;100. J’ai “creusé” à l’aide d’une scie circulaire le dessous de la tête (Je n’ai pas fait de photos car je n’ai pas fait ça chez moi).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-QhnWAtpCexA/Uj9Xx1LVl9I/AAAAAAAAGVg/KQed8SD1Il8/s1024/IMGP4031.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4031.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-QhnWAtpCexA/Uj9Xx1LVl9I/AAAAAAAAGVg/KQed8SD1Il8/s600/IMGP4031.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-gr3CbbCx0OU/Uj9XzIgon_I/AAAAAAAAGVo/rM3w1OTX-4Q/s720/IMGP4032.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4032.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-gr3CbbCx0OU/Uj9XzIgon_I/AAAAAAAAGVo/rM3w1OTX-4Q/s600/IMGP4032.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite découpe des contours à l’aide de la nouvelle Kity.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-tkuBAjs626o/UkiUZKqe6LI/AAAAAAAAGqg/dO6x8BLuND8/s1024/IMGP4060.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4060.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-tkuBAjs626o/UkiUZKqe6LI/AAAAAAAAGqg/dO6x8BLuND8/s600/IMGP4060.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai percé les trous des mécaniques en utilisant plein de petites cales afin d’avoir les trous bien dans l’axe voulu.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-mRAVLqihyUY/UkiUePrusGI/AAAAAAAAGrA/0amXa4at3DA/s1024/IMGP4064.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4064.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-mRAVLqihyUY/UkiUePrusGI/AAAAAAAAGrA/0amXa4at3DA/s600/IMGP4064.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai voulu faire une tête sculptée comme les vielles traditionnelles. Mais n’ayant jamais fait de sculpture auparavant, je me suis dit je teste de faire quelque chose si ce n’est pas trop moche je garde sinon je coupe le bout de la tête !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-wbZlBP6JOdc/UkiUfeXRR3I/AAAAAAAAGrI/B0PyIPrUaX8/s1024/IMGP4066.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4066.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-wbZlBP6JOdc/UkiUfeXRR3I/AAAAAAAAGrI/B0PyIPrUaX8/s600/IMGP4066.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-1nNSsrlB_DI/UkiUjUhOI-I/AAAAAAAAGrg/kf5bz6wzfKg/s1024/IMGP4074.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4074.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-1nNSsrlB_DI/UkiUjUhOI-I/AAAAAAAAGrg/kf5bz6wzfKg/s600/IMGP4074.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Je suis encore loin des vrais têtes de vielles sculptées, mais je quand même très satisfait pour une première fois donc j’ai décidé de la garder !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-XLT7VJAnwWI/UkiUlhpl8uI/AAAAAAAAGrw/iJDW5MTh5NA/s1024/IMGP4077.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4077.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-XLT7VJAnwWI/UkiUlhpl8uI/AAAAAAAAGrw/iJDW5MTh5NA/s600/IMGP4077.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai préparé et découpé le cordier:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-hTlC8QIRFLs/UkiUaq7FhUI/AAAAAAAAGqo/BdIO6f-KMvk/s1024/IMGP4061.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4061.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-hTlC8QIRFLs/UkiUaq7FhUI/AAAAAAAAGqo/BdIO6f-KMvk/s600/IMGP4061.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-aPhqfygC_JU/UkiUc-nz5bI/AAAAAAAAGq4/QbpW6QA0dlI/s1024/IMGP4063.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4063.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-aPhqfygC_JU/UkiUc-nz5bI/AAAAAAAAGq4/QbpW6QA0dlI/s600/IMGP4063.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le voilà une fois fini :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-Qm7-4fYzaco/UkiUgl-mQpI/AAAAAAAAGrQ/VIH8qyJ4u4g/s1024/IMGP4068.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4068.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-Qm7-4fYzaco/UkiUgl-mQpI/AAAAAAAAGrQ/VIH8qyJ4u4g/s600/IMGP4068.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Après ça j’ai pu m’attaquer au ponçage de toutes les pièces de la vielle. D’abord au 100 puis au 180 au 500 et enfin au 1000. (je n’ai pas fait de photos car pas très intéressant de voir de la poussière de partout).&lt;/p&gt;
+
+&lt;p&gt;Une fois le tout bien poncé, j’ai passé une couche d’huile de lin de partout et j’ai laissé sécher.&lt;/p&gt;
+
+&lt;p&gt;J’ai pu ensuite passer un bouche-pore. J’ai saupoudré de la poudre de pierre ponce et à l’aide d’un tampon imbibé d’alcool et d’un peu d’huile de lin, et j’ai frotté en faisant des ronds de partout :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-rb2s1RC83jQ/UkiUm2oEHeI/AAAAAAAAGr4/CeFufjxraz4/s1024/IMGP4079.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4079.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-rb2s1RC83jQ/UkiUm2oEHeI/AAAAAAAAGr4/CeFufjxraz4/s600/IMGP4079.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-cLMNe4U0fTE/UkiUoPh1yfI/AAAAAAAAGsA/vW6dZW8YAog/s1024/IMGP4081.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4081.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-cLMNe4U0fTE/UkiUoPh1yfI/AAAAAAAAGsA/vW6dZW8YAog/s600/IMGP4081.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai aussi préparé en parallèle une bouteille de vernis : J’ai rempli 1/3 de la bouteille de paillettes de gomme-laque et j’ai complété jusque en haut avec de l’alcool à 95°. Après quelques jours ça donne ça :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-MuSTxn9TMcE/UkiVCs7e_WI/AAAAAAAAGsQ/gS0baGvHtZg/s720/IMGP4084.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4084.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-MuSTxn9TMcE/UkiVCs7e_WI/AAAAAAAAGsQ/gS0baGvHtZg/s600/IMGP4084.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour le vernis au tampon j’ai utilisé un tampon que j’imbibe régulièrement de vernis et sur lequel j’ajoute une goutte d’huile de vaseline pour que ça glisse bien sur le bois.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-n5Y2UQXaIxw/UkiVBQNqOJI/AAAAAAAAGsI/p_Tq3wizxHQ/s1024/IMGP4082.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4082.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-n5Y2UQXaIxw/UkiVBQNqOJI/AAAAAAAAGsI/p_Tq3wizxHQ/s600/IMGP4082.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Un aperçu après la première couche :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-yFPnWlu8_z4/UkiVDysyM1I/AAAAAAAAGsY/VyChYIz22UU/s1024/IMGP4087.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4087.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-yFPnWlu8_z4/UkiVDysyM1I/AAAAAAAAGsY/VyChYIz22UU/s600/IMGP4087.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois la première couche de vernis bien sec, j’ai saupoudré à nouveau toute la vielle avec de la poudre de pierre ponce et j’ai frotté avec un papier journal mis en boule, toujours en faisant des ronds, afin d’égaliser le vernis.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-AS7yk1gWgX0/UkiVFKJU-DI/AAAAAAAAGsg/9XImrUxj91s/s1024/IMGP4089.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4089.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-AS7yk1gWgX0/UkiVFKJU-DI/AAAAAAAAGsg/9XImrUxj91s/s600/IMGP4089.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà il me reste plus qu’à faire 7-8 couches de vernis… et après je pourrai coller le tout.&lt;/p&gt;
+
+&lt;p&gt;A la prochaine !&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Sep 2013 09:21:00 +0200</pubDate>
+        <link>http://localhost:4000/cordier/finission/tampon/t%C3%AAte/vernis/2013/09/30/fabrication-de-la-tete-et-debut-du-vernissage.html</link>
+        <guid isPermaLink="true">http://localhost:4000/cordier/finission/tampon/t%C3%AAte/vernis/2013/09/30/fabrication-de-la-tete-et-debut-du-vernissage.html</guid>
+      </item>
+    
+      <item>
+        <title>Fabrication du clavier - partie 2</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hello everybody!&lt;/p&gt;
+
+&lt;p&gt;I didn’t post for quite some time, although I made a lot of progress! This post will then be little longer but less detailed than the other.&lt;/p&gt;
+
+&lt;p&gt;Let’s continue with the keyboard!&lt;/p&gt;
+
+&lt;p&gt;I have made a slot where a small wood piece will be put in order to support the melody strings’ bridges:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-2AMJig6rrLA/Uj9YNEDPlhI/AAAAAAAAGYU/R_SGPGL3miI/s1024/IMGP9854.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9854.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-2AMJig6rrLA/Uj9YNEDPlhI/AAAAAAAAGYU/R_SGPGL3miI/s600/IMGP9854.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also cut the front of the keyboard:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-EFHcEeeNtGM/Uj9YOYHdTGI/AAAAAAAAGYY/fmI2MgcRku8/s1024/IMGP9860.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9860.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-EFHcEeeNtGM/Uj9YOYHdTGI/AAAAAAAAGYY/fmI2MgcRku8/s600/IMGP9860.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-RHAujtQOuDM/Uj9YPnJ6pYI/AAAAAAAAGYg/teTEJAmXCyI/s1024/IMGP9861.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9861.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-RHAujtQOuDM/Uj9YPnJ6pYI/AAAAAAAAGYg/teTEJAmXCyI/s600/IMGP9861.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are all the pieces of the keyboard before assembling and gluing them:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-HHz4umDfz4o/Uj9YVa2gmeI/AAAAAAAAGZI/7ydh3oJfGYs/s1024/IMGP9873.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9873.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-HHz4umDfz4o/Uj9YVa2gmeI/AAAAAAAAGZI/7ydh3oJfGYs/s600/IMGP9873.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is the keyboard before gluing it:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-MyKwWshs5jk/Uj9YQyMMnDI/AAAAAAAAGYo/aC_IMe8_HH0/s1024/IMGP9862.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9862.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-MyKwWshs5jk/Uj9YQyMMnDI/AAAAAAAAGYo/aC_IMe8_HH0/s600/IMGP9862.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The gluing:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-4nYtFivaYKY/Uj9YImHGe1I/AAAAAAAAGXw/I_maC155ScI/s1024/IMGP9877.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9877.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-4nYtFivaYKY/Uj9YImHGe1I/AAAAAAAAGXw/I_maC155ScI/s600/IMGP9877.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-ODyOtSooeZ4/Uj9YK1cL7tI/AAAAAAAAGYA/tSat7hCyJqE/s1024/IMGP9880.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9880.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-ODyOtSooeZ4/Uj9YK1cL7tI/AAAAAAAAGYA/tSat7hCyJqE/s600/IMGP9880.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we can see all the keys:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-jlcfEI813dw/Uj9YWqqeFrI/AAAAAAAAGZQ/SFlZoYoW8Kw/s1024/IMGP9864.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9864.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-jlcfEI813dw/Uj9YWqqeFrI/AAAAAAAAGZQ/SFlZoYoW8Kw/s600/IMGP9864.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I had to adjust the width of the keys so they all could be side by side:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-w20e14Qj31s/Uj9YL2nD_AI/AAAAAAAAGYI/auDy9ZSPCaA/s1024/IMGP9881.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9881.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-w20e14Qj31s/Uj9YL2nD_AI/AAAAAAAAGYI/auDy9ZSPCaA/s600/IMGP9881.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-UW7RCAh94Ec/Uj9YGN0K0zI/AAAAAAAAGXg/xSb3rYx-lP8/s1024/IMGP9882.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9882.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-UW7RCAh94Ec/Uj9YGN0K0zI/AAAAAAAAGXg/xSb3rYx-lP8/s600/IMGP9882.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-gcmC3c5eo7Y/Uj9YE1GK92I/AAAAAAAAGXY/CIjZVvz2mJ0/s1024/IMGP9883.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9883.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-gcmC3c5eo7Y/Uj9YE1GK92I/AAAAAAAAGXY/CIjZVvz2mJ0/s600/IMGP9883.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Them I continued with the front of the flat and sharp keys. I took a 1cm wide square cut of ebony based, and I made a 5mm wide slot on one side using a router. For that I transform my router in a small spindle moulder (I will look at how to make a router table another time).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-YHpEQfZLO38/Uj9YSMnNPmI/AAAAAAAAGYw/1K1gHPJgL_E/s720/IMGP9867.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9867.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-YHpEQfZLO38/Uj9YSMnNPmI/AAAAAAAAGYw/1K1gHPJgL_E/s600/IMGP9867.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The wood piece once slotted:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-qwJCw0gIWvA/Uj9YTaC0kFI/AAAAAAAAGY4/hiH-QruupdA/s720/IMGP9869.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9869.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-qwJCw0gIWvA/Uj9YTaC0kFI/AAAAAAAAGY4/hiH-QruupdA/s600/IMGP9869.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-_fVU5kscmbs/Uj9YUe0jIeI/AAAAAAAAGZA/WAwf8cJKCkY/s1024/IMGP9870.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9870.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-_fVU5kscmbs/Uj9YUe0jIeI/AAAAAAAAGZA/WAwf8cJKCkY/s600/IMGP9870.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I just realise that I didn’t took any pictures of the flat and sharp keys once finished. I will take one soon! I cut the ebony square cut in pieces of specific width so keys can rest side by side. I then glued the key on the pieces using the slot.&lt;/p&gt;
+
+&lt;p&gt;Once the keys finished I started to make the sautereaux. It is a very repetitive task (about 50 sautereaux to do)! I cut the sautereaux in an already made piece I bought and also I cut the edge in order to make them a small foot:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-_6oUL72l414/Uj9Xo9vQSrI/AAAAAAAAGUo/M1cnfbyve10/s1024/IMGP0601.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP0601.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-_6oUL72l414/Uj9Xo9vQSrI/AAAAAAAAGUo/M1cnfbyve10/s600/IMGP0601.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I cut the corner using a knife and I force them through some holes I drilled in a metallic piece.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-bWnu-z8ATZM/Uj9XqNoLJzI/AAAAAAAAGUw/9rUSaKoVjII/s1024/IMGP0604.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP0604.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-bWnu-z8ATZM/Uj9XqNoLJzI/AAAAAAAAGUw/9rUSaKoVjII/s600/IMGP0604.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I drilled the key with a bit of 3.8mm.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-5jfTr0YbA4w/Uj9XrPxWB6I/AAAAAAAAGU4/NcMaT-Ml25Y/s720/IMGP0605.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP0605.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-5jfTr0YbA4w/Uj9XrPxWB6I/AAAAAAAAGU4/NcMaT-Ml25Y/s600/IMGP0605.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the keyboard with the first row of sautereaux. We can also see on the side 1 of the 2 bourdons nuts:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-N2yRbWPdfeI/Uj9XvN4-g8I/AAAAAAAAGVQ/0btdUNp-hLU/s1024/IMGP4026.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4026.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-N2yRbWPdfeI/Uj9XvN4-g8I/AAAAAAAAGVQ/0btdUNp-hLU/s600/IMGP4026.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also build the 2 bridges for the bourdons. I used the screw I made a few month back. That way I can have adjustable bridges (I can adjust the strength of the bourdons on the wheel).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-XmoqKePo8bg/Uj9Xtw2yJaI/AAAAAAAAGVI/FAFXyiItAuw/s1024/IMGP4025.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4025.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-XmoqKePo8bg/Uj9Xtw2yJaI/AAAAAAAAGVI/FAFXyiItAuw/s600/IMGP4025.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can see the hurdy gurdy with the key board and the bridges put in place (they are not glued yet as I will do the gluing once I did the varnish).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-pA5y52xU5a0/Uj9XwoO26nI/AAAAAAAAGVY/KTtpyXWTaoE/s1024/IMGP4030.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4030.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-pA5y52xU5a0/Uj9XwoO26nI/AAAAAAAAGVY/KTtpyXWTaoE/s600/IMGP4030.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It is all for today. I will write another post during this week because I have almost finished the head of the hurdy gurdy!&lt;/p&gt;
+
+&lt;p&gt;Here is a bonus picture of where I do all my work:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-QfWrKyv7few/Uj9X0QEW5uI/AAAAAAAAGVw/E-zNVtUsYO0/s1024/IMGP4036.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4036.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-QfWrKyv7few/Uj9X0QEW5uI/AAAAAAAAGVw/E-zNVtUsYO0/s600/IMGP4036.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bye!&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjour à tous !&lt;/p&gt;
+
+&lt;p&gt;Je n’ai pas fait de post depuis un petit moment et pourtant j’ai bien avancé sur le projet ! Du coup ce post sera long mais un peu moins détaillé que les autres.&lt;/p&gt;
+
+&lt;p&gt;Commençons d’abords par la suite de la fabrication du clavier !&lt;/p&gt;
+
+&lt;p&gt;J’ai défoncé une rainure (sur chaque joue du clavier) où viendra se loger la plaque où seront posé les sillets des chanterelles :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-2AMJig6rrLA/Uj9YNEDPlhI/AAAAAAAAGYU/R_SGPGL3miI/s1024/IMGP9854.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9854.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-2AMJig6rrLA/Uj9YNEDPlhI/AAAAAAAAGYU/R_SGPGL3miI/s600/IMGP9854.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai aussi découpé l’avant du clavier afin que celui-ci soit légèrement penché :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-EFHcEeeNtGM/Uj9YOYHdTGI/AAAAAAAAGYY/fmI2MgcRku8/s1024/IMGP9860.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9860.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-EFHcEeeNtGM/Uj9YOYHdTGI/AAAAAAAAGYY/fmI2MgcRku8/s600/IMGP9860.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le résultat une fois découpé :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-RHAujtQOuDM/Uj9YPnJ6pYI/AAAAAAAAGYg/teTEJAmXCyI/s1024/IMGP9861.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9861.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-RHAujtQOuDM/Uj9YPnJ6pYI/AAAAAAAAGYg/teTEJAmXCyI/s600/IMGP9861.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ici on voit toute les pièces du clavier avant assemblage et collage :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-HHz4umDfz4o/Uj9YVa2gmeI/AAAAAAAAGZI/7ydh3oJfGYs/s1024/IMGP9873.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9873.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-HHz4umDfz4o/Uj9YVa2gmeI/AAAAAAAAGZI/7ydh3oJfGYs/s600/IMGP9873.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et ici le clavier assemblé juste avant collage :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-MyKwWshs5jk/Uj9YQyMMnDI/AAAAAAAAGYo/aC_IMe8_HH0/s1024/IMGP9862.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9862.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-MyKwWshs5jk/Uj9YQyMMnDI/AAAAAAAAGYo/aC_IMe8_HH0/s600/IMGP9862.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On colle le tout :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-4nYtFivaYKY/Uj9YImHGe1I/AAAAAAAAGXw/I_maC155ScI/s1024/IMGP9877.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9877.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-4nYtFivaYKY/Uj9YImHGe1I/AAAAAAAAGXw/I_maC155ScI/s600/IMGP9877.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et voilà le résultat !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-ODyOtSooeZ4/Uj9YK1cL7tI/AAAAAAAAGYA/tSat7hCyJqE/s1024/IMGP9880.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9880.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-ODyOtSooeZ4/Uj9YK1cL7tI/AAAAAAAAGYA/tSat7hCyJqE/s600/IMGP9880.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ici on vois toutes les touches :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-jlcfEI813dw/Uj9YWqqeFrI/AAAAAAAAGZQ/SFlZoYoW8Kw/s1024/IMGP9864.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9864.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-jlcfEI813dw/Uj9YWqqeFrI/AAAAAAAAGZQ/SFlZoYoW8Kw/s600/IMGP9864.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite il m’a fallu ajuster la largeur des touches afin qu’elles puissent être toutes côte-à-côte :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-w20e14Qj31s/Uj9YL2nD_AI/AAAAAAAAGYI/auDy9ZSPCaA/s1024/IMGP9881.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9881.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-w20e14Qj31s/Uj9YL2nD_AI/AAAAAAAAGYI/auDy9ZSPCaA/s600/IMGP9881.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-UW7RCAh94Ec/Uj9YGN0K0zI/AAAAAAAAGXg/xSb3rYx-lP8/s1024/IMGP9882.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9882.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-UW7RCAh94Ec/Uj9YGN0K0zI/AAAAAAAAGXg/xSb3rYx-lP8/s600/IMGP9882.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-gcmC3c5eo7Y/Uj9YE1GK92I/AAAAAAAAGXY/CIjZVvz2mJ0/s1024/IMGP9883.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9883.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-gcmC3c5eo7Y/Uj9YE1GK92I/AAAAAAAAGXY/CIjZVvz2mJ0/s600/IMGP9883.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite je me suis attelé au devant des touches des altérations. J’ai pris un carrelet d’ébène d’environ 1cm de largeur et j’ai défoncé une rainure de 5mm de large et 4-5mm de profondeur sur une face. Pour cela j’ai transformé la défonceuse en mini-toupie à l’aide d’un petit montage (je regarderai une autre fois pour me fabriqué une table de défonceuse).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-YHpEQfZLO38/Uj9YSMnNPmI/AAAAAAAAGYw/1K1gHPJgL_E/s720/IMGP9867.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9867.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-YHpEQfZLO38/Uj9YSMnNPmI/AAAAAAAAGYw/1K1gHPJgL_E/s600/IMGP9867.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La baguette une fois défoncée :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-qwJCw0gIWvA/Uj9YTaC0kFI/AAAAAAAAGY4/hiH-QruupdA/s720/IMGP9869.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9869.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-qwJCw0gIWvA/Uj9YTaC0kFI/AAAAAAAAGY4/hiH-QruupdA/s600/IMGP9869.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-_fVU5kscmbs/Uj9YUe0jIeI/AAAAAAAAGZA/WAwf8cJKCkY/s1024/IMGP9870.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9870.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-_fVU5kscmbs/Uj9YUe0jIeI/AAAAAAAAGZA/WAwf8cJKCkY/s600/IMGP9870.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;D’ailleurs je viens de ma rendre compte que je n’ai pas fait de photos des touches des altérations une fois fini. J’en ferai une à l’occasion, promis ! J’ai découpé la baguette afin d’avoir un bout pour chaque touche (avec des longueurs très précises afin que les touches soient aussi côte-à-côte une fois misent en place). J’ai ensuite collé le bout des touches des altérations dans la rainure.&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai attaqué la fabrication des sautereaux. C’est très répétitif à faire (une cinquantaine à faire) ! J’ai découpé les sautereaux dans une baguette acheté toute prête et ensuite j’ai découpé leur bout afin de leur faire un pied :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-_6oUL72l414/Uj9Xo9vQSrI/AAAAAAAAGUo/M1cnfbyve10/s1024/IMGP0601.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP0601.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-_6oUL72l414/Uj9Xo9vQSrI/AAAAAAAAGUo/M1cnfbyve10/s600/IMGP0601.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai cassé les angles à l’aide d’un couteau et je les ai passés de force dans des trous percé dans un morceau de ferraille (je commence par un trou de 4,2mm puis 4,1mm puis 4mm).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-bWnu-z8ATZM/Uj9XqNoLJzI/AAAAAAAAGUw/9rUSaKoVjII/s1024/IMGP0604.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP0604.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-bWnu-z8ATZM/Uj9XqNoLJzI/AAAAAAAAGUw/9rUSaKoVjII/s600/IMGP0604.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai percé les touches avec une mèche de 3,8mm&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-5jfTr0YbA4w/Uj9XrPxWB6I/AAAAAAAAGU4/NcMaT-Ml25Y/s720/IMGP0605.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP0605.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-5jfTr0YbA4w/Uj9XrPxWB6I/AAAAAAAAGU4/NcMaT-Ml25Y/s600/IMGP0605.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ici on voit le clavier avec la première rangé de sautereau mise en place. On peut aussi voir sur le côté du clavier 1 des 2 sillets des bourdons (en bas à gauche de la photo) :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-N2yRbWPdfeI/Uj9XvN4-g8I/AAAAAAAAGVQ/0btdUNp-hLU/s1024/IMGP4026.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4026.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-N2yRbWPdfeI/Uj9XvN4-g8I/AAAAAAAAGVQ/0btdUNp-hLU/s600/IMGP4026.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai aussi fabriqué les 2 chevalets des bourdons et de la trompette. J’ai utilisé les fameuses vis que j’avais tournées à la perceuse il y a quelque mois. Cela permet d’avoir des chevalets réglables (on peut régler l’appui du bourdon sur la roue).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-XmoqKePo8bg/Uj9Xtw2yJaI/AAAAAAAAGVI/FAFXyiItAuw/s1024/IMGP4025.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4025.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-XmoqKePo8bg/Uj9Xtw2yJaI/AAAAAAAAGVI/FAFXyiItAuw/s600/IMGP4025.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà la vielle avec le clavier et les chevalets mis en place (pour l’instant ils sont juste posés car le collage s’effectue une fois que j’aurai vernis le tout).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh4.googleusercontent.com/-pA5y52xU5a0/Uj9XwoO26nI/AAAAAAAAGVY/KTtpyXWTaoE/s1024/IMGP4030.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4030.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-pA5y52xU5a0/Uj9XwoO26nI/AAAAAAAAGVY/KTtpyXWTaoE/s600/IMGP4030.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà c’est tout pour aujourd’hui. Je ferai un autre post dans la semaine car j’ai presque fini la tête de la vielle !&lt;/p&gt;
+
+&lt;p&gt;Avant de se quitter une petite photo bonus de l’endroit qui me sert d’atelier :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-QfWrKyv7few/Uj9X0QEW5uI/AAAAAAAAGVw/E-zNVtUsYO0/s1024/IMGP4036.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP4036.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-QfWrKyv7few/Uj9X0QEW5uI/AAAAAAAAGVw/E-zNVtUsYO0/s600/IMGP4036.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A bientôt&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Sep 2013 14:30:00 +0200</pubDate>
+        <link>http://localhost:4000/clavier/2013/09/23/fabrication-du-clavier-partie-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/clavier/2013/09/23/fabrication-du-clavier-partie-2.html</guid>
+      </item>
+    
+      <item>
+        <title>Fabrication du clavier - partie 1</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hello everybody !&lt;/p&gt;
+
+&lt;p&gt;After a month and a half where I didn’t had a minute for myself, I can now continue the project!&lt;/p&gt;
+
+&lt;p&gt;I started to work on the hurdy-gurdy keyboard!&lt;/p&gt;
+
+&lt;p&gt;I ordered two guide cut by laser. Here is one with also one of the sides of the keyboard :
+&lt;a href=&quot;https://lh5.googleusercontent.com/-3fmgw3o4huM/Uemh8j_xI3I/AAAAAAAAF3U/wID7Jd8bKwY/s1024/IMGP8832.jpg&quot;&gt;&lt;img alt=&quot;IMGP8832.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-3fmgw3o4huM/Uemh8j_xI3I/AAAAAAAAF3U/wID7Jd8bKwY/s600/IMGP8832.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I tapped the guides and the sides of the keyboard together with double-side tape :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-yAaAtYbyOCM/Uemh9b-t6QI/AAAAAAAAF3c/-hH1ySDY2lk/s1024/IMGP8835.jpg&quot;&gt;&lt;img alt=&quot;IMGP8835.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-yAaAtYbyOCM/Uemh9b-t6QI/AAAAAAAAF3c/-hH1ySDY2lk/s600/IMGP8835.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I drilled holes using the guide:
+&lt;a href=&quot;https://lh4.googleusercontent.com/-uZsrY4vyaBk/Uemh-U3t1PI/AAAAAAAAF3k/1I28vzpcE4I/s1024/IMGP8836.jpg&quot;&gt;&lt;img alt=&quot;IMGP8836.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-uZsrY4vyaBk/Uemh-U3t1PI/AAAAAAAAF3k/1I28vzpcE4I/s600/IMGP8836.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I took some small rasps and files in order to make rectangular holes from the ones I drilled.
+&lt;a href=&quot;https://lh4.googleusercontent.com/-Mw3vwG39jAc/Uemh_-qT2WI/AAAAAAAAF3s/5O_ZrV61Ovs/s1024/IMGP8839.jpg&quot;&gt;&lt;img alt=&quot;IMGP8839.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-Mw3vwG39jAc/Uemh_-qT2WI/AAAAAAAAF3s/5O_ZrV61Ovs/s600/IMGP8839.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It is very time consuming to get something really precise. Anyway, I will have to do some finishing when I will put the key in them so I didn’t spend days in order to get something perfect.
+&lt;a href=&quot;https://lh4.googleusercontent.com/-IgsUcWmZGeE/UemiAxr7HOI/AAAAAAAAF30/G7B-ms0ubkI/s1024/IMGP8840.jpg&quot;&gt;&lt;img alt=&quot;IMGP8840.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-IgsUcWmZGeE/UemiAxr7HOI/AAAAAAAAF30/G7B-ms0ubkI/s600/IMGP8840.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-CMK8TyFVXCk/UemiFZqRRII/AAAAAAAAF4A/iK223VCx6W0/s720/IMGP8841.jpg&quot;&gt;&lt;img alt=&quot;IMGP8841.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-CMK8TyFVXCk/UemiFZqRRII/AAAAAAAAF4A/iK223VCx6W0/s600/IMGP8841.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I took the ebony pieces I ordered to make the keys. The pieces’ sizes are 5&lt;em&gt;24&lt;/em&gt;120mm. However there was a small problem: some pieces had a thickness between 5 and 6mm between each edge. I don’t know if I got them like that or if the wood has dried a bit. Next time I order wood, I will carefully check everything! I had to make these pieces flat again. I then thought of a small assembling in order to make the work using a router.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-6QIzperOdzg/UfA6sj1EjaI/AAAAAAAAGKc/z0d5U0x23Lg/s1024/IMGP9819.jpg&quot;&gt;&lt;img alt=&quot;IMGP9819.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-6QIzperOdzg/UfA6sj1EjaI/AAAAAAAAGKc/z0d5U0x23Lg/s600/IMGP9819.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I put the ebony piece on a small drill vise.
+&lt;a href=&quot;https://lh5.googleusercontent.com/-vszjvr2hYKo/UfA6pVhjKwI/AAAAAAAAGKE/7p1bQOJi7tE/s1024/IMGP9816.jpg&quot;&gt;&lt;img alt=&quot;IMGP9816.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-vszjvr2hYKo/UfA6pVhjKwI/AAAAAAAAGKE/7p1bQOJi7tE/s600/IMGP9816.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I hanged and clamped the router so I could pass below with the vise.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-UE1aSn0vq0A/UfA6qrIgcAI/AAAAAAAAGKM/ONrLgvTlh54/s1024/IMGP9817.jpg&quot;&gt;&lt;img alt=&quot;IMGP9817.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-UE1aSn0vq0A/UfA6qrIgcAI/AAAAAAAAGKM/ONrLgvTlh54/s600/IMGP9817.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can see the vise and the router (it is a bit blurred):
+&lt;a href=&quot;https://lh4.googleusercontent.com/-eG2lMe1n8UM/UfA6tvsxk-I/AAAAAAAAGKk/-CK2zjCJA3Q/s1024/IMGP9820.jpg&quot;&gt;&lt;img alt=&quot;IMGP9820.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-eG2lMe1n8UM/UfA6tvsxk-I/AAAAAAAAGKk/-CK2zjCJA3Q/s600/IMGP9820.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I cut the keys. The left part is used to make the diatonic keys and the small right part is used to make the flat and sharp keys.
+&lt;a href=&quot;https://lh6.googleusercontent.com/-ZrX7uL9sl5c/UfA6u8K--fI/AAAAAAAAGKs/6w4FWiXNHZM/s1024/IMGP9824.jpg&quot;&gt;&lt;img alt=&quot;IMGP9824.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-ZrX7uL9sl5c/UfA6u8K--fI/AAAAAAAAGKs/6w4FWiXNHZM/s600/IMGP9824.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-vjnYn0rUGks/UfA6v6W8jfI/AAAAAAAAGK0/uK7twlk6Ry0/s1024/IMGP9826.jpg&quot;&gt;&lt;img alt=&quot;IMGP9826.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-vjnYn0rUGks/UfA6v6W8jfI/AAAAAAAAGK0/uK7twlk6Ry0/s600/IMGP9826.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Right now the keys’ sizes are about 5&lt;em&gt;10mm. I have to get them to 5&lt;/em&gt;8mm and the edges have to be perfectly straight. I used the router again in order to do that.
+I took a straight piece of wood in which I made a groove of exactly 8mm wide and 8mm deep on one side.
+&lt;a href=&quot;https://lh4.googleusercontent.com/-L2mhvJIueWM/UfA6xmCttZI/AAAAAAAAGK8/wpnaF-iVyds/s1024/IMGP9828.jpg&quot;&gt;&lt;img alt=&quot;IMGP9828.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-L2mhvJIueWM/UfA6xmCttZI/AAAAAAAAGK8/wpnaF-iVyds/s600/IMGP9828.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I put each key in the groove and clamped it.
+&lt;a href=&quot;https://lh6.googleusercontent.com/-0dHubtDZqlY/UfA6zBqJ1wI/AAAAAAAAGLE/BersCRSsUhk/s1024/IMGP9829.jpg&quot;&gt;&lt;img alt=&quot;IMGP9829.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-0dHubtDZqlY/UfA6zBqJ1wI/AAAAAAAAGLE/BersCRSsUhk/s600/IMGP9829.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And I used a flush trim router bit in order to have keys of exactly 8mm wide.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-PyU89SJaeIg/UfA60Q3VDaI/AAAAAAAAGLM/vkJudIL1VWw/s1024/IMGP9831.jpg&quot;&gt;&lt;img alt=&quot;IMGP9831.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-PyU89SJaeIg/UfA60Q3VDaI/AAAAAAAAGLM/vkJudIL1VWw/s600/IMGP9831.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once using the router :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-vhEbwUQ6-P0/UfA62stpevI/AAAAAAAAGLc/96r6C_ddeoE/s1024/IMGP9834.jpg&quot;&gt;&lt;img alt=&quot;IMGP9834.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-vhEbwUQ6-P0/UfA62stpevI/AAAAAAAAGLc/96r6C_ddeoE/s600/IMGP9834.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However for one of the key I made a small mistake: I wanted to go to fast and the router splinted a piece of the key !
+&lt;a href=&quot;https://lh5.googleusercontent.com/-0ciUdy9GTjk/UfA63yYFbiI/AAAAAAAAGLk/EjNKhS9bs6Y/s1024/IMGP9836.jpg&quot;&gt;&lt;img alt=&quot;IMGP9836.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-0ciUdy9GTjk/UfA63yYFbiI/AAAAAAAAGLk/EjNKhS9bs6Y/s600/IMGP9836.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Right now I have glued the small piece. I will see, if it is not good I will re-order a piece of ebony and make a key again !
+&lt;a href=&quot;https://lh4.googleusercontent.com/-AVEF86fbtHc/UfA65CbfnTI/AAAAAAAAGLs/gUUk4E3PUho/s1024/IMGP9838.jpg&quot;&gt;&lt;img alt=&quot;IMGP9838.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-AVEF86fbtHc/UfA65CbfnTI/AAAAAAAAGLs/gUUk4E3PUho/s600/IMGP9838.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is one of the first key going through the keyboard edge.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-O_xXX6OZasY/UfA66DE2IOI/AAAAAAAAGL0/ROIv9p00ZKU/s720/IMGP9840.jpg&quot;&gt;&lt;img alt=&quot;IMGP9840.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-O_xXX6OZasY/UfA66DE2IOI/AAAAAAAAGL0/ROIv9p00ZKU/s600/IMGP9840.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I still have lots of work, but I am happy to have fully restarted after a month doing almost nothing !&lt;/p&gt;
+
+&lt;p&gt;On the 12th of July I went to the “Rencontre Internationale des Luthiers et Maîtres Sonneurs” at Château d’Ars in France. It is a huge traditional music festival where most of the instrument builders are exposing their stuff. I managed to meet almost all the hurdy-gurdy builders and have a good chat with some of them. I now even more motivated and I have tons of ideas in my head!!!&lt;/p&gt;
+
+&lt;p&gt;To the next article!&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjour à tous&lt;/p&gt;
+
+&lt;p&gt;Bon après un mois de juin et un début de juillet où je n’avais pas une minute à moi, voici enfin la suite !&lt;/p&gt;
+
+&lt;p&gt;J’ai donc commencé de travailler sur le clavier de la vielle !&lt;/p&gt;
+
+&lt;p&gt;J’ai commandé 2 guides découpés au laser chez Damengo. En voici un sur la photo avec un côté de clavier au dessus :
+&lt;a href=&quot;https://lh5.googleusercontent.com/-3fmgw3o4huM/Uemh8j_xI3I/AAAAAAAAF3U/wID7Jd8bKwY/s1024/IMGP8832.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8832.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-3fmgw3o4huM/Uemh8j_xI3I/AAAAAAAAF3U/wID7Jd8bKwY/s600/IMGP8832.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai donc scotché les guides et les 2 côtés de clavier ensemble avec sur scotch double face :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-yAaAtYbyOCM/Uemh9b-t6QI/AAAAAAAAF3c/-hH1ySDY2lk/s1024/IMGP8835.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8835.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-yAaAtYbyOCM/Uemh9b-t6QI/AAAAAAAAF3c/-hH1ySDY2lk/s600/IMGP8835.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai ensuite percé avec une petite mèche chaque trou :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-uZsrY4vyaBk/Uemh-U3t1PI/AAAAAAAAF3k/1I28vzpcE4I/s1024/IMGP8836.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8836.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-uZsrY4vyaBk/Uemh-U3t1PI/AAAAAAAAF3k/1I28vzpcE4I/s600/IMGP8836.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Puis ensuite vient le gros boulot : j’ai pris des petites limes et rappes que j’ai utilisé afin de reproduire les trous rectangulaires des guides.
+&lt;a href=&quot;https://lh4.googleusercontent.com/-Mw3vwG39jAc/Uemh_-qT2WI/AAAAAAAAF3s/5O_ZrV61Ovs/s1024/IMGP8839.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8839.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-Mw3vwG39jAc/Uemh_-qT2WI/AAAAAAAAF3s/5O_ZrV61Ovs/s600/IMGP8839.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ça demande du boulot avant d’obtenir quelque chose de bien précis. Bon de toute façon faudra tout réajuster lorsque je ferais passer les touches donc je ne m’y suis pas non plus attardé des jours entiers.
+&lt;a href=&quot;https://lh4.googleusercontent.com/-IgsUcWmZGeE/UemiAxr7HOI/AAAAAAAAF30/G7B-ms0ubkI/s1024/IMGP8840.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8840.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-IgsUcWmZGeE/UemiAxr7HOI/AAAAAAAAF30/G7B-ms0ubkI/s600/IMGP8840.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-CMK8TyFVXCk/UemiFZqRRII/AAAAAAAAF4A/iK223VCx6W0/s720/IMGP8841.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8841.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-CMK8TyFVXCk/UemiFZqRRII/AAAAAAAAF4A/iK223VCx6W0/s600/IMGP8841.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai pris mes débits d’ébène que j’avais commandés afin de fabriquer les touches. Ce sont des débits de 5&lt;em&gt;24&lt;/em&gt;120mm. Problème : certains avaient une épaisseur qui oscillée entre 5 et 6mm entre chaque extrémités. Je ne sais pas si je les ai reçu comme ça ou si ils ont bougés en séchant. Je contrôlerai mieux la prochaine fois à la réception du bois ! J’ai dû re-surfacer tous les débits. J’ai donc imaginer un petit montage afin de réaliser le boulot avec la défonceuse.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-6QIzperOdzg/UfA6sj1EjaI/AAAAAAAAGKc/z0d5U0x23Lg/s1024/IMGP9819.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9819.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-6QIzperOdzg/UfA6sj1EjaI/AAAAAAAAGKc/z0d5U0x23Lg/s600/IMGP9819.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Je pose mon débit sur un petit étau de perceuse.
+&lt;a href=&quot;https://lh5.googleusercontent.com/-vszjvr2hYKo/UfA6pVhjKwI/AAAAAAAAGKE/7p1bQOJi7tE/s1024/IMGP9816.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9816.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-vszjvr2hYKo/UfA6pVhjKwI/AAAAAAAAGKE/7p1bQOJi7tE/s600/IMGP9816.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et j’ai fixé et suspendu la défonceuse afin que je puisse passer en dessous avec le petit étau.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-UE1aSn0vq0A/UfA6qrIgcAI/AAAAAAAAGKM/ONrLgvTlh54/s1024/IMGP9817.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9817.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-UE1aSn0vq0A/UfA6qrIgcAI/AAAAAAAAGKM/ONrLgvTlh54/s600/IMGP9817.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voici le principe (c’est un peu flou) :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-eG2lMe1n8UM/UfA6tvsxk-I/AAAAAAAAGKk/-CK2zjCJA3Q/s1024/IMGP9820.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9820.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-eG2lMe1n8UM/UfA6tvsxk-I/AAAAAAAAGKk/-CK2zjCJA3Q/s600/IMGP9820.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite il faut découper les touches. La partie de gauche sert aux touches diatoniques et la petite partie de droite servira aux altérations (dièses et bémols)
+&lt;a href=&quot;https://lh6.googleusercontent.com/-ZrX7uL9sl5c/UfA6u8K--fI/AAAAAAAAGKs/6w4FWiXNHZM/s1024/IMGP9824.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9824.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-ZrX7uL9sl5c/UfA6u8K--fI/AAAAAAAAGKs/6w4FWiXNHZM/s600/IMGP9824.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-vjnYn0rUGks/UfA6v6W8jfI/AAAAAAAAGK0/uK7twlk6Ry0/s1024/IMGP9826.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9826.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-vjnYn0rUGks/UfA6v6W8jfI/AAAAAAAAGK0/uK7twlk6Ry0/s600/IMGP9826.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A ce stade les touches font environs 5&lt;em&gt;10mm, il faut les réduire à 5&lt;/em&gt;8mm et qu’elles aient des faces très droites. J’ai donc encore utilisé la défonceuse.
+J’ai d’abord pris un bout de bois comportant une face bien rabotée et dégauchie, et j’ai pratiqué une rainure d’exactement 8mm de large et 8mm de profondeur sur le côté.
+&lt;a href=&quot;https://lh4.googleusercontent.com/-L2mhvJIueWM/UfA6xmCttZI/AAAAAAAAGK8/wpnaF-iVyds/s1024/IMGP9828.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9828.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-L2mhvJIueWM/UfA6xmCttZI/AAAAAAAAGK8/wpnaF-iVyds/s600/IMGP9828.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’installe les touches en les serrant avec un serre-joint.
+&lt;a href=&quot;https://lh6.googleusercontent.com/-0dHubtDZqlY/UfA6zBqJ1wI/AAAAAAAAGLE/BersCRSsUhk/s1024/IMGP9829.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9829.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-0dHubtDZqlY/UfA6zBqJ1wI/AAAAAAAAGLE/BersCRSsUhk/s600/IMGP9829.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et je fraise avec une fraise à copier afin d’avoir des touches qui font pile-poile 8mm de large.
+&lt;a href=&quot;https://lh3.googleusercontent.com/-PyU89SJaeIg/UfA60Q3VDaI/AAAAAAAAGLM/vkJudIL1VWw/s1024/IMGP9831.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9831.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-PyU89SJaeIg/UfA60Q3VDaI/AAAAAAAAGLM/vkJudIL1VWw/s600/IMGP9831.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois fraisé :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-vhEbwUQ6-P0/UfA62stpevI/AAAAAAAAGLc/96r6C_ddeoE/s1024/IMGP9834.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9834.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-vhEbwUQ6-P0/UfA62stpevI/AAAAAAAAGLc/96r6C_ddeoE/s600/IMGP9834.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Par contre sur une des touches j’ai fait une petite bêtise : j’ai voulu aller trop vite et la défonceuse a arraché un bout d’ébène au bout de la touche :aie: !
+&lt;a href=&quot;https://lh5.googleusercontent.com/-0ciUdy9GTjk/UfA63yYFbiI/AAAAAAAAGLk/EjNKhS9bs6Y/s1024/IMGP9836.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9836.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-0ciUdy9GTjk/UfA63yYFbiI/AAAAAAAAGLk/EjNKhS9bs6Y/s600/IMGP9836.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour l’instant j’ai recollé le morceau arraché on verra ce que ça donnera sinon je recommanderai un bout d’ébène et je referai la touche !
+&lt;a href=&quot;https://lh4.googleusercontent.com/-AVEF86fbtHc/UfA65CbfnTI/AAAAAAAAGLs/gUUk4E3PUho/s1024/IMGP9838.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9838.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-AVEF86fbtHc/UfA65CbfnTI/AAAAAAAAGLs/gUUk4E3PUho/s600/IMGP9838.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et voilà une des premières touches passant dans les côtés (encore difficilement, mais il va falloir ajuster).
+&lt;a href=&quot;https://lh3.googleusercontent.com/-O_xXX6OZasY/UfA66DE2IOI/AAAAAAAAGL0/ROIv9p00ZKU/s720/IMGP9840.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP9840.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-O_xXX6OZasY/UfA66DE2IOI/AAAAAAAAGL0/ROIv9p00ZKU/s600/IMGP9840.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà il reste encore plein de travail mais je suis content d’avoir repris le boulot après un mois au compte-goutte !&lt;/p&gt;
+
+&lt;p&gt;Sinon je suis aussi allé le 12 juillet à la “Rencontre Internationale des Luthiers et Maîtres Sonneurs” au château d’Ars à côté de la Châtre. C’est un gros festival de musique traditionnel où la plupart des luthiers d’instruments traditionnels viennent exposer. J’ai pu y rencontrer presque tous les luthiers fabriquant des vielles à roues et aussi bien discuter avec certains d’entre eux. Je suis revenu avec des idées et astuces plein la tête et encore plus motivé qu’avant !!!&lt;/p&gt;
+
+&lt;p&gt;Allez à bientôt.&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Jul 2013 07:14:00 +0200</pubDate>
+        <link>http://localhost:4000/clavier/touches/2013/07/25/fabrication-du-clavier-partie-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/clavier/touches/2013/07/25/fabrication-du-clavier-partie-1.html</guid>
+      </item>
+    
+      <item>
+        <title>Fabrication du chevalet principal</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hello,&lt;/p&gt;
+
+&lt;p&gt;This weekend I started to think about how to build the Hurdy Gurdy keyboard. I will certainly order a Plexiglas guide on Damengo (a company specialised in laser cutting) !  I asked them for a quote, so I will see what they answer !&lt;/p&gt;
+
+&lt;p&gt;As a result, I took some time to build the main bridge !&lt;/p&gt;
+
+&lt;p&gt;Here is the piece of wood that will be used for the main bridge and the Hurdy Gurdy ears:
+&lt;a href=&quot;https://lh5.googleusercontent.com/-a_AEZ3bOJzI/UauUfPFZfTI/AAAAAAAAFwo/xx8zz3tEhBU/s1024/IMGP8451.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8451.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-a_AEZ3bOJzI/UauUfPFZfTI/AAAAAAAAFwo/xx8zz3tEhBU/s600/IMGP8451.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I printed a bridge model and I glued it on the piece of wood at the right place in order to get the correct thickness:
+&lt;a href=&quot;https://lh3.googleusercontent.com/-NNMZtzkKO-4/UauUdi4Bi7I/AAAAAAAAFwg/P_r3Feu1ooM/s1024/IMGP8453.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8453.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-NNMZtzkKO-4/UauUdi4Bi7I/AAAAAAAAFwg/P_r3Feu1ooM/s600/IMGP8453.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I cut it with my scroll saw (and I used also my drill press to make the water drop shape in the middle):
+&lt;a href=&quot;https://lh6.googleusercontent.com/-GXsPD7EK4xo/UauUcQf5vBI/AAAAAAAAFwY/0UbtH-uFCHw/s1024/IMGP8455.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8455.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-GXsPD7EK4xo/UauUcQf5vBI/AAAAAAAAFwY/0UbtH-uFCHw/s600/IMGP8455.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-SIv7NF8mtHk/UauUbO-xMeI/AAAAAAAAFwQ/AL4mU_TaUvQ/s1024/IMGP8457.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8457.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-SIv7NF8mtHk/UauUbO-xMeI/AAAAAAAAFwQ/AL4mU_TaUvQ/s600/IMGP8457.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here it is after some sanding:
+&lt;a href=&quot;https://lh6.googleusercontent.com/-LFiijzPrmzE/UauUZ6x3BhI/AAAAAAAAFwI/IYyeXOZgRtk/s1024/IMGP8460.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8460.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-LFiijzPrmzE/UauUZ6x3BhI/AAAAAAAAFwI/IYyeXOZgRtk/s600/IMGP8460.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you again!&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjour,&lt;/p&gt;
+
+&lt;p&gt;Ce weekend j’ai commencé de réfléchir à la fabrication du clavier. Je vais surement commander chez Damengo 1 guide en plexiglas ! J’ai demandé un devis, on verra bien ce qu’ils me répondent !&lt;/p&gt;
+
+&lt;p&gt;Du coup en attendant, j’en ai profité pour fabriquer le chevalet principal !&lt;/p&gt;
+
+&lt;p&gt;Ici on voit le bloc de bois qui va servir à faire le chevalet et les oreilles de la vielle :
+&lt;a href=&quot;https://lh5.googleusercontent.com/-a_AEZ3bOJzI/UauUfPFZfTI/AAAAAAAAFwo/xx8zz3tEhBU/s1024/IMGP8451.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8451.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-a_AEZ3bOJzI/UauUfPFZfTI/AAAAAAAAFwo/xx8zz3tEhBU/s600/IMGP8451.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai imprimé un modèle de chevalet à l’échelle et je l’ai collé sur le morceau de bois à l’endroit où l’épaisseur convient :
+&lt;a href=&quot;https://lh3.googleusercontent.com/-NNMZtzkKO-4/UauUdi4Bi7I/AAAAAAAAFwg/P_r3Feu1ooM/s1024/IMGP8453.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8453.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-NNMZtzkKO-4/UauUdi4Bi7I/AAAAAAAAFwg/P_r3Feu1ooM/s600/IMGP8453.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Puis découpage à la scie à chantourner (et un petit coup de perceuse pour la goute d’eau au milieu) :
+&lt;a href=&quot;https://lh6.googleusercontent.com/-GXsPD7EK4xo/UauUcQf5vBI/AAAAAAAAFwY/0UbtH-uFCHw/s1024/IMGP8455.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8455.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-GXsPD7EK4xo/UauUcQf5vBI/AAAAAAAAFwY/0UbtH-uFCHw/s600/IMGP8455.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-SIv7NF8mtHk/UauUbO-xMeI/AAAAAAAAFwQ/AL4mU_TaUvQ/s1024/IMGP8457.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8457.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-SIv7NF8mtHk/UauUbO-xMeI/AAAAAAAAFwQ/AL4mU_TaUvQ/s600/IMGP8457.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et voilà après un bon coup de ponçage :
+&lt;a href=&quot;https://lh6.googleusercontent.com/-LFiijzPrmzE/UauUZ6x3BhI/AAAAAAAAFwI/IYyeXOZgRtk/s1024/IMGP8460.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8460.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-LFiijzPrmzE/UauUZ6x3BhI/AAAAAAAAFwI/IYyeXOZgRtk/s600/IMGP8460.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A la prochaine !&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Jun 2013 09:35:00 +0200</pubDate>
+        <link>http://localhost:4000/chevalets%20et%20cordier/2013/06/03/fabrication-du-chevalet-principal.html</link>
+        <guid isPermaLink="true">http://localhost:4000/chevalets%20et%20cordier/2013/06/03/fabrication-du-chevalet-principal.html</guid>
+      </item>
+    
+      <item>
+        <title>Perçage des ouïes et collage de la table !</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hello everybody!&lt;/p&gt;
+
+&lt;p&gt;Some update about the progress of the project!&lt;/p&gt;
+
+&lt;p&gt;Firstly I had to sand, sand, and … the top of the soundbox in order to be able to glue the soundboard. To be able to sand the support bars I used a spirit level (very straight base). I taped a piece of sanding paper on the base.
+&lt;a href=&quot;https://lh5.googleusercontent.com/-lrj6eAq4vn8/UaJLUaD5HmI/AAAAAAAAFu4/AWORSY0jf9Q/s1024/IMGP8412.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8412.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-lrj6eAq4vn8/UaJLUaD5HmI/AAAAAAAAFu4/AWORSY0jf9Q/s600/IMGP8412.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-_RTFIZ-xhZ8/UaJLV9d-RRI/AAAAAAAAFvA/m7Minu1qs1U/s1024/IMGP8410.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8410.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-_RTFIZ-xhZ8/UaJLV9d-RRI/AAAAAAAAFvA/m7Minu1qs1U/s600/IMGP8410.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Besides, I can only recommend you the sandpaper sold by &lt;a title=&quot;Dictum&quot; href=&quot;http://www.mehr-als-werkzeug.de&quot; target=&quot;_blank&quot;&gt;Dictum&lt;/a&gt; in 25m rolls! It’s really good quality!
+&lt;a href=&quot;https://lh6.googleusercontent.com/-E7uLIseOMEA/UaJLTYPm9hI/AAAAAAAAFuw/g0tnDTzv4dk/s1024/IMGP8413.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8413.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-E7uLIseOMEA/UaJLTYPm9hI/AAAAAAAAFuw/g0tnDTzv4dk/s600/IMGP8413.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once I sanded everything, I cut the soundboard with my scroll saw!
+&lt;a href=&quot;https://lh5.googleusercontent.com/-JU7-J7znVSg/UaJLXH_qOmI/AAAAAAAAFvI/A-DMPyWKxk4/s1024/IMGP8408.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8408.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-JU7-J7znVSg/UaJLXH_qOmI/AAAAAAAAFvI/A-DMPyWKxk4/s600/IMGP8408.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I didn’t took a picture but I drilled 2 small holes on each side of the soundboard in order to put a small peg so the soundboard cannot move on the soundbox while gluing it!&lt;/p&gt;
+
+&lt;p&gt;I draw the opening on the soundboard where the wheel will go through:
+&lt;a href=&quot;https://lh6.googleusercontent.com/-DmU9ZRW91ws/UaJLRtYJxYI/AAAAAAAAFuo/6-VBlxdhx_U/s1024/IMGP8414.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8414.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-DmU9ZRW91ws/UaJLRtYJxYI/AAAAAAAAFuo/6-VBlxdhx_U/s600/IMGP8414.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh6.googleusercontent.com/-tAwanm3tFAE/UaJLQGE3ioI/AAAAAAAAFug/cnn6A_sLMpo/s720/IMGP8416.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8416.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-tAwanm3tFAE/UaJLQGE3ioI/AAAAAAAAFug/cnn6A_sLMpo/s600/IMGP8416.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-Zkli4Pu-3Tw/UaJLOUeDXwI/AAAAAAAAFuY/93ik1TuNMWo/s1024/IMGP8418.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8418.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-Zkli4Pu-3Tw/UaJLOUeDXwI/AAAAAAAAFuY/93ik1TuNMWo/s600/IMGP8418.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After cutting it:
+&lt;a href=&quot;https://lh4.googleusercontent.com/-H_gysSp2UHQ/UaJLNHIZ_RI/AAAAAAAAFuQ/v0oLynXdl48/s1024/IMGP8419.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8419.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-H_gysSp2UHQ/UaJLNHIZ_RI/AAAAAAAAFuQ/v0oLynXdl48/s600/IMGP8419.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m not very happy as it is not very straigth:
+&lt;a href=&quot;https://lh6.googleusercontent.com/-PhnhqgvWcxs/UaJLLxl4b4I/AAAAAAAAFuI/I1lJHroQCrs/s1024/IMGP8420.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8420.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-PhnhqgvWcxs/UaJLLxl4b4I/AAAAAAAAFuI/I1lJHroQCrs/s600/IMGP8420.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I should have left some margins and sand it after. I caught up with my error by sanding it in order to have everything straight, but now I have about 2-3mm between the wheel and the soundboard where I wanted 1mm. But it is not very serious because you don’t see it too much.&lt;/p&gt;
+
+&lt;p&gt;Here is the Hurdy Gurdy with the wheel and the soundboard (you can see the little pegs I was speaking about before, that hold the soundboard).
+&lt;a href=&quot;https://lh6.googleusercontent.com/-wrMENezD4gs/UZ71t8e0-7I/AAAAAAAAFt4/lXxyfw_XGoQ/s1024/IMGP8427.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8427.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-wrMENezD4gs/UZ71t8e0-7I/AAAAAAAAFt4/lXxyfw_XGoQ/s600/IMGP8427.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I started working on the soundholes! I decided to drill a series of holes on each side of the tailpiece. First I started to make a template, so I could draw the position where to drill!
+&lt;a href=&quot;https://lh3.googleusercontent.com/-dlUZ4_UEDlc/UZ71sV83xeI/AAAAAAAAFtw/AokCiuLur98/s1024/IMGP8429.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8429.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-dlUZ4_UEDlc/UZ71sV83xeI/AAAAAAAAFtw/AokCiuLur98/s600/IMGP8429.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I drill all the holes! (You have to be very careful as spruce is very fragile and can break easily)
+&lt;a href=&quot;https://lh5.googleusercontent.com/-IxiuV8UuXkM/UZ71qhhctXI/AAAAAAAAFto/nXwnXsBgfWY/s720/IMGP8430.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8430.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-IxiuV8UuXkM/UZ71qhhctXI/AAAAAAAAFto/nXwnXsBgfWY/s600/IMGP8430.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The result once finished! (I’m quite happy about the result!)
+&lt;a href=&quot;https://lh3.googleusercontent.com/-re6DbLcS3YU/UZ71o42Ra0I/AAAAAAAAFtg/goWAn5OtH44/s1024/IMGP8432.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8432.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-re6DbLcS3YU/UZ71o42Ra0I/AAAAAAAAFtg/goWAn5OtH44/s600/IMGP8432.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh6.googleusercontent.com/-AcIj_iZMWoU/UZ71nmqNQmI/AAAAAAAAFtY/sgI_Fe4prNo/s1024/IMGP8434.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8434.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-AcIj_iZMWoU/UZ71nmqNQmI/AAAAAAAAFtY/sgI_Fe4prNo/s600/IMGP8434.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I started the bending of the soundboard! I put the soundboard in place on the soundbox, and I applied a wet tower above!
+&lt;a href=&quot;https://lh6.googleusercontent.com/-imJVoBg4aLA/UZ71mT9mTlI/AAAAAAAAFtQ/FxDjKWDhMQ8/s1024/IMGP8435.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8435.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-imJVoBg4aLA/UZ71mT9mTlI/AAAAAAAAFtQ/FxDjKWDhMQ8/s600/IMGP8435.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I used an iron to warm the wood!
+&lt;a href=&quot;https://lh4.googleusercontent.com/-4UQKhQN9QaQ/UZ71kBdBkWI/AAAAAAAAFtI/Yes_EuY_OPU/s1024/IMGP8436.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8436.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-4UQKhQN9QaQ/UZ71kBdBkWI/AAAAAAAAFtI/Yes_EuY_OPU/s600/IMGP8436.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I clamped everything and waited a few days!
+&lt;a href=&quot;https://lh3.googleusercontent.com/-2ROOQnPlAsw/UZ71iM_UZCI/AAAAAAAAFtA/F-BUNAYk0xk/s1024/IMGP8438.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8438.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-2ROOQnPlAsw/UZ71iM_UZCI/AAAAAAAAFtA/F-BUNAYk0xk/s600/IMGP8438.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I glued the soundboard! I didn’t took any picture during the gluing as I was very focus on what I was doing and I had to put all the clamps very quickly before the glue would dry (It took me about 30 min to put all the clamps!).&lt;/p&gt;
+
+&lt;p&gt;Here is the result with all the clamps:
+&lt;a href=&quot;https://lh6.googleusercontent.com/-Vgnu2Y0fOjQ/UaJMWLfzFJI/AAAAAAAAFv0/9VbJBzpJuhY/s1024/IMGP8440.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8440.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-Vgnu2Y0fOjQ/UaJMWLfzFJI/AAAAAAAAFv0/9VbJBzpJuhY/s600/IMGP8440.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh6.googleusercontent.com/-t04PkYrwrbk/UaJMUSXeD7I/AAAAAAAAFvs/fqjnjOMdAaA/s1024/IMGP8442.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8442.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-t04PkYrwrbk/UaJMUSXeD7I/AAAAAAAAFvs/fqjnjOMdAaA/s600/IMGP8442.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the soundboard almost finished!!!
+&lt;a href=&quot;https://lh6.googleusercontent.com/-47d1LbcbnqE/UaJMSwlMBYI/AAAAAAAAFvk/eLAhzBOqg_I/s1024/IMGP8446.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8446.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-47d1LbcbnqE/UaJMSwlMBYI/AAAAAAAAFvk/eLAhzBOqg_I/s600/IMGP8446.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;At last I used sanding paper in order to remove the portion exceeding:
+&lt;a href=&quot;https://lh3.googleusercontent.com/-6X3QvgyOTD8/UaJMRkoSJ4I/AAAAAAAAFvc/jVpXwdNComU/s720/IMGP8447.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8447.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-6X3QvgyOTD8/UaJMRkoSJ4I/AAAAAAAAFvc/jVpXwdNComU/s600/IMGP8447.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-KNxYiO0HNaE/UaJMQaeP3yI/AAAAAAAAFvU/wdHYbEgoAdw/s720/IMGP8449.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8449.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-KNxYiO0HNaE/UaJMQaeP3yI/AAAAAAAAFvU/wdHYbEgoAdw/s600/IMGP8449.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All right! Now I will have to start the keyboard (very hard), the bridges, the tailpiece and also the head !!!&lt;/p&gt;
+
+&lt;p&gt;See you soon for new HurdyGurdy adventures!!!&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjour à tout le monde !&lt;/p&gt;
+
+&lt;p&gt;Un petit point sur l’avancement du projet !&lt;/p&gt;
+
+&lt;p&gt;Tout d’abord j’ai dû poncer, poncer, poncer… pour que tout le dessus de la vielle soit nickel avant de coller la table. Pour pouvoir poncer les barrages j’ai utilisé un niveau à bulle (donc bien droit) sur lequel j’ai scotché du papier de verre avec du scotch double face.
+&lt;a href=&quot;https://lh5.googleusercontent.com/-lrj6eAq4vn8/UaJLUaD5HmI/AAAAAAAAFu4/AWORSY0jf9Q/s1024/IMGP8412.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8412.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-lrj6eAq4vn8/UaJLUaD5HmI/AAAAAAAAFu4/AWORSY0jf9Q/s600/IMGP8412.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-_RTFIZ-xhZ8/UaJLV9d-RRI/AAAAAAAAFvA/m7Minu1qs1U/s1024/IMGP8410.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8410.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-_RTFIZ-xhZ8/UaJLV9d-RRI/AAAAAAAAFvA/m7Minu1qs1U/s600/IMGP8410.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;D’ailleurs en passant je vous recommande le papier de verre vendu en rouleau de 25m chez &lt;a href=&quot;http://www.mehr-als-werkzeug.de&quot; title=&quot;Dictum&quot; target=&quot;_blank&quot;&gt;Dictum&lt;/a&gt; ! C’est vraiment de la super qualité !
+&lt;a href=&quot;https://lh6.googleusercontent.com/-E7uLIseOMEA/UaJLTYPm9hI/AAAAAAAAFuw/g0tnDTzv4dk/s1024/IMGP8413.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8413.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-E7uLIseOMEA/UaJLTYPm9hI/AAAAAAAAFuw/g0tnDTzv4dk/s600/IMGP8413.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois que tout été bien poncé, j’ai découpé la table à la scie à chantourner !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-JU7-J7znVSg/UaJLXH_qOmI/AAAAAAAAFvI/A-DMPyWKxk4/s1024/IMGP8408.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8408.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-JU7-J7znVSg/UaJLXH_qOmI/AAAAAAAAFvI/A-DMPyWKxk4/s600/IMGP8408.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Je n’ai pas pris de photos mais j’ai percé la table de chaque côté pour de faire passer une petite cheville afin de caler la table sur la caisse de résonance !&lt;/p&gt;
+
+&lt;p&gt;Ensuite traçage de l’ouverture dans la table où passera la roue :
+&lt;a href=&quot;https://lh6.googleusercontent.com/-DmU9ZRW91ws/UaJLRtYJxYI/AAAAAAAAFuo/6-VBlxdhx_U/s1024/IMGP8414.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8414.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-DmU9ZRW91ws/UaJLRtYJxYI/AAAAAAAAFuo/6-VBlxdhx_U/s600/IMGP8414.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh6.googleusercontent.com/-tAwanm3tFAE/UaJLQGE3ioI/AAAAAAAAFug/cnn6A_sLMpo/s720/IMGP8416.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8416.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-tAwanm3tFAE/UaJLQGE3ioI/AAAAAAAAFug/cnn6A_sLMpo/s600/IMGP8416.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-Zkli4Pu-3Tw/UaJLOUeDXwI/AAAAAAAAFuY/93ik1TuNMWo/s1024/IMGP8418.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8418.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-Zkli4Pu-3Tw/UaJLOUeDXwI/AAAAAAAAFuY/93ik1TuNMWo/s600/IMGP8418.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Après la découpe ça donne cela :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-H_gysSp2UHQ/UaJLNHIZ_RI/AAAAAAAAFuQ/v0oLynXdl48/s1024/IMGP8419.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8419.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-H_gysSp2UHQ/UaJLNHIZ_RI/AAAAAAAAFuQ/v0oLynXdl48/s600/IMGP8419.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Par contre c’est pas très droit:
+&lt;a href=&quot;https://lh6.googleusercontent.com/-PhnhqgvWcxs/UaJLLxl4b4I/AAAAAAAAFuI/I1lJHroQCrs/s1024/IMGP8420.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8420.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-PhnhqgvWcxs/UaJLLxl4b4I/AAAAAAAAFuI/I1lJHroQCrs/s600/IMGP8420.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’aurai du laisser de la marge et poncer après pour ajuster. J’ai rattrapé un peu la bêtise en ponçant le tout pour que tout soit bien droit mais j’ai 2-3mm entre les flancs de la roue et la table et entre 4 et 5 mm entre la tranche et la table. Je voulais 1 mm partout au départ. Bon ce n’est pas très grave une fois tout poncé bien droit ça se voit pas trop !&lt;/p&gt;
+
+&lt;p&gt;On voit toute la vielle avec la roue et la table posée (on voit les chevilles dont je parlais au début).
+&lt;a href=&quot;https://lh6.googleusercontent.com/-wrMENezD4gs/UZ71t8e0-7I/AAAAAAAAFt4/lXxyfw_XGoQ/s1024/IMGP8427.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8427.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-wrMENezD4gs/UZ71t8e0-7I/AAAAAAAAFt4/lXxyfw_XGoQ/s600/IMGP8427.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite je me suis attaqué aux ouïes ! J’ai décidé de percer une série de trous de chaque côté du cordier Je me suis d’abord fait un modèle sur une chute qu’il me restait des éclisses, afin de pouvoir tracer avec précision la position des trous où percer !
+&lt;a href=&quot;https://lh3.googleusercontent.com/-dlUZ4_UEDlc/UZ71sV83xeI/AAAAAAAAFtw/AokCiuLur98/s1024/IMGP8429.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8429.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-dlUZ4_UEDlc/UZ71sV83xeI/AAAAAAAAFtw/AokCiuLur98/s600/IMGP8429.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et après hop on perse ! (En faisant très très attention à ne pas tout arracher ! (Car l’épicéa c’est fragile et ça fait facilement des éclats)
+&lt;a href=&quot;https://lh5.googleusercontent.com/-IxiuV8UuXkM/UZ71qhhctXI/AAAAAAAAFto/nXwnXsBgfWY/s720/IMGP8430.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8430.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-IxiuV8UuXkM/UZ71qhhctXI/AAAAAAAAFto/nXwnXsBgfWY/s600/IMGP8430.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le résultat une fois fini ! (Je suis plutôt content du résultat !)
+&lt;a href=&quot;https://lh3.googleusercontent.com/-re6DbLcS3YU/UZ71o42Ra0I/AAAAAAAAFtg/goWAn5OtH44/s1024/IMGP8432.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8432.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-re6DbLcS3YU/UZ71o42Ra0I/AAAAAAAAFtg/goWAn5OtH44/s600/IMGP8432.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh6.googleusercontent.com/-AcIj_iZMWoU/UZ71nmqNQmI/AAAAAAAAFtY/sgI_Fe4prNo/s1024/IMGP8434.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8434.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-AcIj_iZMWoU/UZ71nmqNQmI/AAAAAAAAFtY/sgI_Fe4prNo/s600/IMGP8434.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai procédé au cintrage de la table ! J’ai mis la table en place sur la caisse de résonance et j’ai posé un torchon humide dessus !
+&lt;a href=&quot;https://lh6.googleusercontent.com/-imJVoBg4aLA/UZ71mT9mTlI/AAAAAAAAFtQ/FxDjKWDhMQ8/s1024/IMGP8435.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8435.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-imJVoBg4aLA/UZ71mT9mTlI/AAAAAAAAFtQ/FxDjKWDhMQ8/s600/IMGP8435.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et ensuite j’ai chauffé avec un fer à repasser !
+&lt;a href=&quot;https://lh4.googleusercontent.com/-4UQKhQN9QaQ/UZ71kBdBkWI/AAAAAAAAFtI/Yes_EuY_OPU/s1024/IMGP8436.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8436.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-4UQKhQN9QaQ/UZ71kBdBkWI/AAAAAAAAFtI/Yes_EuY_OPU/s600/IMGP8436.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Puis on fixe le tout avec des serre-joints et on attend quelques jours !
+&lt;a href=&quot;https://lh3.googleusercontent.com/-2ROOQnPlAsw/UZ71iM_UZCI/AAAAAAAAFtA/F-BUNAYk0xk/s1024/IMGP8438.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8438.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-2ROOQnPlAsw/UZ71iM_UZCI/AAAAAAAAFtA/F-BUNAYk0xk/s600/IMGP8438.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai collé la table ! Je n’ai pas pris de photos pendant le collage car cela demandait une grande concentration et je ne devais pas perdre de temps après avoir mis la colle pour mettre tous les serre-joints (j’ai mis quasiment une demi-heure pour tous les mettre!).&lt;/p&gt;
+
+&lt;p&gt;Mais voici le résultat une fois tous ces serre-joints posés :
+&lt;a href=&quot;https://lh6.googleusercontent.com/-Vgnu2Y0fOjQ/UaJMWLfzFJI/AAAAAAAAFv0/9VbJBzpJuhY/s1024/IMGP8440.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8440.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-Vgnu2Y0fOjQ/UaJMWLfzFJI/AAAAAAAAFv0/9VbJBzpJuhY/s600/IMGP8440.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh6.googleusercontent.com/-t04PkYrwrbk/UaJMUSXeD7I/AAAAAAAAFvs/fqjnjOMdAaA/s1024/IMGP8442.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8442.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-t04PkYrwrbk/UaJMUSXeD7I/AAAAAAAAFvs/fqjnjOMdAaA/s600/IMGP8442.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Et voilà, la caisse de résonance est presque finie !!!
+&lt;a href=&quot;https://lh6.googleusercontent.com/-47d1LbcbnqE/UaJMSwlMBYI/AAAAAAAAFvk/eLAhzBOqg_I/s1024/IMGP8446.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8446.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-47d1LbcbnqE/UaJMSwlMBYI/AAAAAAAAFvk/eLAhzBOqg_I/s600/IMGP8446.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai commencé de poncer la tranche de la table qui dépasse :
+&lt;a href=&quot;https://lh3.googleusercontent.com/-6X3QvgyOTD8/UaJMRkoSJ4I/AAAAAAAAFvc/jVpXwdNComU/s720/IMGP8447.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8447.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-6X3QvgyOTD8/UaJMRkoSJ4I/AAAAAAAAFvc/jVpXwdNComU/s600/IMGP8447.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-KNxYiO0HNaE/UaJMQaeP3yI/AAAAAAAAFvU/wdHYbEgoAdw/s720/IMGP8449.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP8449.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-KNxYiO0HNaE/UaJMQaeP3yI/AAAAAAAAFvU/wdHYbEgoAdw/s600/IMGP8449.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà ! Maintenant il va falloir s’attaquer au clavier (ça va être dur), aux chevalets, au cordier et à la tête de la roue !!!&lt;/p&gt;
+
+&lt;p&gt;A la prochaine pour de nouvelles aventures de lutherie viellistique !!! :D&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 May 2013 09:37:00 +0200</pubDate>
+        <link>http://localhost:4000/caisse%20de%20raisonnance/collage/ou%C3%AFes/table/2013/05/27/collage-de-la-table-et-ouies.html</link>
+        <guid isPermaLink="true">http://localhost:4000/caisse%20de%20raisonnance/collage/ou%C3%AFes/table/2013/05/27/collage-de-la-table-et-ouies.html</guid>
+      </item>
+    
+      <item>
+        <title>Boutons de ceinture, axe et barrages !</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hello everybody !&lt;/p&gt;
+
+&lt;p&gt;The last achievements of the weekend and yesterday evening :&lt;/p&gt;
+
+&lt;p&gt;To start this article, I wanted to make a small metal turning test on a “home-made” lathe (a drill placed in a bench vise and some files). I wanted to make some custom screw that will hold the bourdons (on the bourdons’ bridge) and that make the bridge (and the pressure of the bourdon on the wheel) adjustable ! The goal is also to have 2 notches on the screw head in order to be able to disengage the bourdon of the wheel.&lt;/p&gt;
+
+&lt;p&gt;To explain the concept here is a picture of a Boudet hurdy-gurdy :&lt;a href=&quot;https://lh4.googleusercontent.com/-E3_LH7B6WkA/UWzvqfb2QxI/AAAAAAAAFVU/z_yf2aDH3dY/s802/boudet.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;boudet.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-E3_LH7B6WkA/UWzvqfb2QxI/AAAAAAAAFVU/z_yf2aDH3dY/s600/boudet.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are the screw before doing anything (Hexagon socket countersunk head screws) &lt;a href=&quot;https://lh3.googleusercontent.com/-gtTm1Ax4LZM/UWxleyvbKuI/AAAAAAAAFVE/uF59RdfWZ50/s1024/IMGP7571.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7571.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-gtTm1Ax4LZM/UWxleyvbKuI/AAAAAAAAFVE/uF59RdfWZ50/s600/IMGP7571.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m shaping them … with a file !&lt;a href=&quot;https://lh4.googleusercontent.com/-5fIkNrBTrhs/UWxldywADeI/AAAAAAAAFU8/2x0Q28O1snM/s1024/IMGP7572.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7572.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-5fIkNrBTrhs/UWxldywADeI/AAAAAAAAFU8/2x0Q28O1snM/s600/IMGP7572.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The screws once finished :&lt;a href=&quot;https://lh6.googleusercontent.com/-IhW42LuAvTI/UWxlckK7zdI/AAAAAAAAFU0/NjBl5p4BL-c/s1024/IMGP7573.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7573.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-IhW42LuAvTI/UWxlckK7zdI/AAAAAAAAFU0/NjBl5p4BL-c/s600/IMGP7573.jpg&quot; /&gt;&lt;/a&gt;
+I will see if it works with screws like that !&lt;/p&gt;
+
+&lt;p&gt;A newcomer has arrived in the workshop : a beautiful drill press (almost essential for what’s next) that you can see on the next picture !&lt;a href=&quot;https://lh4.googleusercontent.com/-QaMOlu0Z-as/UWxlbK4TBlI/AAAAAAAAFUs/-SxhY2jGRpE/s720/IMGP7575.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7575.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-QaMOlu0Z-as/UWxlbK4TBlI/AAAAAAAAFUs/-SxhY2jGRpE/s600/IMGP7575.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To continue with the hurdy-gurdy, I drill the holes where the strap buttons (so you can strap a belt to hold the gurdy). First on the back side (on the pegbox side) :&lt;a href=&quot;https://lh3.googleusercontent.com/-PYua9BUMbSU/UWxlZTPdJuI/AAAAAAAAFUk/whV5qYNejcQ/s720/IMGP7576.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7576.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-PYua9BUMbSU/UWxlZTPdJuI/AAAAAAAAFUk/whV5qYNejcQ/s600/IMGP7576.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-Iqs3innmy7c/UWxlX5CiPhI/AAAAAAAAFUc/CFIN_LPad7U/s1024/IMGP7577.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7577.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-Iqs3innmy7c/UWxlX5CiPhI/AAAAAAAAFUc/CFIN_LPad7U/s600/IMGP7577.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And then on the front side (the crank side)&lt;a href=&quot;https://lh4.googleusercontent.com/-6XBrBHsTtO4/UWxlWfkiBHI/AAAAAAAAFUU/jRJ3sJx9V6M/s1024/IMGP7578.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7578.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-6XBrBHsTtO4/UWxlWfkiBHI/AAAAAAAAFUU/jRJ3sJx9V6M/s600/IMGP7578.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The wood has splintered a bit even I used a backup plank on the other side, well it wasn’t serious !&lt;a href=&quot;https://lh3.googleusercontent.com/-GY3ieYGdk80/UWxlU1z_vGI/AAAAAAAAFUM/kayQHh3Zuh0/s720/IMGP7580.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7580.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-GY3ieYGdk80/UWxlU1z_vGI/AAAAAAAAFUM/kayQHh3Zuh0/s600/IMGP7580.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is one of the strap button :&lt;a href=&quot;https://lh4.googleusercontent.com/-PnLfJmhzkTk/UWxlSqZF8oI/AAAAAAAAFT8/Mb5gd6f3yYQ/s720/IMGP7582.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7582.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-PnLfJmhzkTk/UWxlSqZF8oI/AAAAAAAAFT8/Mb5gd6f3yYQ/s600/IMGP7582.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On the front side (the crank side) the buttons are glued directly on the side. You have to glue a back-up piece on the inside. Here I’m adjusting the back-up piece with some sanding paper to make it fit perfectly with the side :&lt;a href=&quot;https://lh4.googleusercontent.com/-b__jlg4OOKU/UWxlRchadfI/AAAAAAAAFT0/bdRgdWYLqic/s1024/IMGP7583.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7583.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-b__jlg4OOKU/UWxlRchadfI/AAAAAAAAFT0/bdRgdWYLqic/s600/IMGP7583.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The back-up pieces are then glued and tighten using a bolt and a wingnut (and small wood protections) :&lt;a href=&quot;https://lh6.googleusercontent.com/-IWE3k7LXXOQ/UWxlP9PuQjI/AAAAAAAAFTs/qx4ULJ8yxYc/s1024/IMGP7586.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7586.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-IWE3k7LXXOQ/UWxlP9PuQjI/AAAAAAAAFTs/qx4ULJ8yxYc/s600/IMGP7586.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-pdJj9Ldix1I/UWxlODn1uoI/AAAAAAAAFTk/45SzEuAGLMw/s1024/IMGP7587.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7587.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-pdJj9Ldix1I/UWxlODn1uoI/AAAAAAAAFTk/45SzEuAGLMw/s600/IMGP7587.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-K7tqmyN57Zs/UWxlMzY3SDI/AAAAAAAAFTc/E3ITA9B2Nck/s1024/IMGP7588.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7588.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-K7tqmyN57Zs/UWxlMzY3SDI/AAAAAAAAFTc/E3ITA9B2Nck/s600/IMGP7588.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the back-up pieces are glued, I was able to glue the buttons.&lt;/p&gt;
+
+&lt;p&gt;I then drilled the hole on the crank side where the wheel axis will go through :&lt;a href=&quot;https://lh5.googleusercontent.com/--vmq_1Zo-L0/UWxlLtDmlsI/AAAAAAAAFTU/N-8a-h7Wql0/s720/IMGP7590.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7590.jpg&quot; src=&quot;https://lh5.googleusercontent.com/--vmq_1Zo-L0/UWxlLtDmlsI/AAAAAAAAFTU/N-8a-h7Wql0/s600/IMGP7590.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-MP5PEJcaVhM/UWxlKKsMQDI/AAAAAAAAFTM/W-xt9KGJLuE/s720/IMGP7591.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7591.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-MP5PEJcaVhM/UWxlKKsMQDI/AAAAAAAAFTM/W-xt9KGJLuE/s600/IMGP7591.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also drilled the support bars (but I forgot to take pictures) !&lt;/p&gt;
+
+&lt;p&gt;I mounted the wheel on its axis (It was very hard to get something perpendicular, I will have to make some adjustments)&lt;a href=&quot;https://lh5.googleusercontent.com/-xHcVo52VqKo/UWxlJLAMuhI/AAAAAAAAFTE/ScHGOTVJxCI/s1024/IMGP7592.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7592.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-xHcVo52VqKo/UWxlJLAMuhI/AAAAAAAAFTE/ScHGOTVJxCI/s600/IMGP7592.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the gurdy with the support bars and the wheel and its axis (but the support bars are not glued) :&lt;a href=&quot;https://lh5.googleusercontent.com/-1PJj3o8NgsU/UWxlHmsSUXI/AAAAAAAAFS8/_z0cTaDyReY/s1024/IMGP7596.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7596.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-1PJj3o8NgsU/UWxlHmsSUXI/AAAAAAAAFS8/_z0cTaDyReY/s600/IMGP7596.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I glued the support bars and tighten them with screws !&lt;a href=&quot;https://lh5.googleusercontent.com/-VzfyQfWJZs8/UWxlGWerfTI/AAAAAAAAFS0/2NDzFjW5Jko/s1024/IMGP7599.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7599.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-VzfyQfWJZs8/UWxlGWerfTI/AAAAAAAAFS0/2NDzFjW5Jko/s600/IMGP7599.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s all ! Next step will be to fasten the axis and to glued the upper linings before I can put the soundtable !&lt;/p&gt;
+
+&lt;p&gt;See you&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjour à tous !&lt;/p&gt;
+
+&lt;p&gt;Les derniers avancements du weekend et hier soir :&lt;/p&gt;
+
+&lt;p&gt;Pour commencer cet article, j’ai voulu faire un petit test de tournage de métaux avec un tour “artisanal” (une perceuse dans un étau et comme outils des limes). En fait je cherchais à fabriquer des vis qui vont venir tenir les bourdons (sur le chevalet des bourdons) et qui du coup rendent le chevalet (et donc l’appui des bourdons sur la roue) réglable ! Le but aussi est d’avoir 2 encoches sur la vis pour pouvoir débrayer le bourdon afin qu’il ne touche plus la roue si on le souhaite.&lt;/p&gt;
+
+&lt;p&gt;Voici une photo d’une vielle Boudet pour expliquer le concept :&lt;a href=&quot;https://lh4.googleusercontent.com/-E3_LH7B6WkA/UWzvqfb2QxI/AAAAAAAAFVU/z_yf2aDH3dY/s802/boudet.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;boudet.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-E3_LH7B6WkA/UWzvqfb2QxI/AAAAAAAAFVU/z_yf2aDH3dY/s600/boudet.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Donc voici les vis que j’ai utilisé à l’origine (des vis avec une tête 6 pans creux)&lt;a href=&quot;https://lh3.googleusercontent.com/-gtTm1Ax4LZM/UWxleyvbKuI/AAAAAAAAFVE/uF59RdfWZ50/s1024/IMGP7571.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7571.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-gtTm1Ax4LZM/UWxleyvbKuI/AAAAAAAAFVE/uF59RdfWZ50/s600/IMGP7571.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Me voici en train d’usiner … avec une lime !&lt;a href=&quot;https://lh4.googleusercontent.com/-5fIkNrBTrhs/UWxldywADeI/AAAAAAAAFU8/2x0Q28O1snM/s1024/IMGP7572.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7572.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-5fIkNrBTrhs/UWxldywADeI/AAAAAAAAFU8/2x0Q28O1snM/s600/IMGP7572.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Les vis une fois finies :&lt;a href=&quot;https://lh6.googleusercontent.com/-IhW42LuAvTI/UWxlckK7zdI/AAAAAAAAFU0/NjBl5p4BL-c/s1024/IMGP7573.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7573.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-IhW42LuAvTI/UWxlckK7zdI/AAAAAAAAFU0/NjBl5p4BL-c/s600/IMGP7573.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Je verrai donc bien si ça fonctionne avec des vis comme ça !&lt;/p&gt;
+
+&lt;p&gt;Bon sinon une petite nouvelle est arrivé à l’atelier : une belle perceuse à colonne (quasi indispensable pour la suite) que vous pouvez voir sur la prochaine photo !&lt;a href=&quot;https://lh4.googleusercontent.com/-QaMOlu0Z-as/UWxlbK4TBlI/AAAAAAAAFUs/-SxhY2jGRpE/s720/IMGP7575.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7575.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-QaMOlu0Z-as/UWxlbK4TBlI/AAAAAAAAFUs/-SxhY2jGRpE/s600/IMGP7575.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour en revenir à la vielle, j’ai percé les trous pour pouvoir coller les “boutons de ceinture” (cela permet d’accrocher une ceinture qui est utilisé pour tenir la vielle). D’abord sur la face arrière (côté chevillier) :&lt;a href=&quot;https://lh3.googleusercontent.com/-PYua9BUMbSU/UWxlZTPdJuI/AAAAAAAAFUk/whV5qYNejcQ/s720/IMGP7576.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7576.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-PYua9BUMbSU/UWxlZTPdJuI/AAAAAAAAFUk/whV5qYNejcQ/s600/IMGP7576.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-Iqs3innmy7c/UWxlX5CiPhI/AAAAAAAAFUc/CFIN_LPad7U/s1024/IMGP7577.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7577.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-Iqs3innmy7c/UWxlX5CiPhI/AAAAAAAAFUc/CFIN_LPad7U/s600/IMGP7577.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Puis sur la face avant (côté manivelle)&lt;a href=&quot;https://lh4.googleusercontent.com/-6XBrBHsTtO4/UWxlWfkiBHI/AAAAAAAAFUU/jRJ3sJx9V6M/s1024/IMGP7578.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7578.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-6XBrBHsTtO4/UWxlWfkiBHI/AAAAAAAAFUU/jRJ3sJx9V6M/s600/IMGP7578.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ça s’est un peu effrité même avec une planche martyr, mais bon rien de bien grave !&lt;a href=&quot;https://lh3.googleusercontent.com/-GY3ieYGdk80/UWxlU1z_vGI/AAAAAAAAFUM/kayQHh3Zuh0/s720/IMGP7580.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7580.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-GY3ieYGdk80/UWxlU1z_vGI/AAAAAAAAFUM/kayQHh3Zuh0/s600/IMGP7580.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voici un des boutons de ceinture :&lt;a href=&quot;https://lh4.googleusercontent.com/-PnLfJmhzkTk/UWxlSqZF8oI/AAAAAAAAFT8/Mb5gd6f3yYQ/s720/IMGP7582.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7582.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-PnLfJmhzkTk/UWxlSqZF8oI/AAAAAAAAFT8/Mb5gd6f3yYQ/s600/IMGP7582.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sur la face avant (côté manivelle) les boutons sont collés sur l’éclisse directement. Il faut donc coller un renfort sur l’intérieur. Ici je suis en train d’ajuster le renfort sur un papier de verre afin qu’il épouse parfaitement l’éclisse :&lt;a href=&quot;https://lh4.googleusercontent.com/-b__jlg4OOKU/UWxlRchadfI/AAAAAAAAFT0/bdRgdWYLqic/s1024/IMGP7583.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7583.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-b__jlg4OOKU/UWxlRchadfI/AAAAAAAAFT0/bdRgdWYLqic/s600/IMGP7583.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Les renforts sont ensuite collés et maintenus en pression grâce à un boulon et un écrou papillon (et des morceaux de bois de protection) :&lt;a href=&quot;https://lh6.googleusercontent.com/-IWE3k7LXXOQ/UWxlP9PuQjI/AAAAAAAAFTs/qx4ULJ8yxYc/s1024/IMGP7586.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7586.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-IWE3k7LXXOQ/UWxlP9PuQjI/AAAAAAAAFTs/qx4ULJ8yxYc/s600/IMGP7586.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh6.googleusercontent.com/-pdJj9Ldix1I/UWxlODn1uoI/AAAAAAAAFTk/45SzEuAGLMw/s1024/IMGP7587.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7587.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-pdJj9Ldix1I/UWxlODn1uoI/AAAAAAAAFTk/45SzEuAGLMw/s600/IMGP7587.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh3.googleusercontent.com/-K7tqmyN57Zs/UWxlMzY3SDI/AAAAAAAAFTc/E3ITA9B2Nck/s1024/IMGP7588.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7588.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-K7tqmyN57Zs/UWxlMzY3SDI/AAAAAAAAFTc/E3ITA9B2Nck/s600/IMGP7588.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois les renforts collés, j’ai pu coller les 3 boutons de ceinture.&lt;/p&gt;
+
+&lt;p&gt;J’ai ensuite percé le trou sur la face avant (côté manivelle) où passera l’axe de la roue :&lt;a href=&quot;https://lh5.googleusercontent.com/--vmq_1Zo-L0/UWxlLtDmlsI/AAAAAAAAFTU/N-8a-h7Wql0/s720/IMGP7590.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7590.jpg&quot; src=&quot;https://lh5.googleusercontent.com/--vmq_1Zo-L0/UWxlLtDmlsI/AAAAAAAAFTU/N-8a-h7Wql0/s600/IMGP7590.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lh5.googleusercontent.com/-MP5PEJcaVhM/UWxlKKsMQDI/AAAAAAAAFTM/W-xt9KGJLuE/s720/IMGP7591.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7591.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-MP5PEJcaVhM/UWxlKKsMQDI/AAAAAAAAFTM/W-xt9KGJLuE/s600/IMGP7591.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai aussi percé les barrages (mais j’ai oublié de faire des photos) !&lt;/p&gt;
+
+&lt;p&gt;J’ai monté la roue sur son axe (dur dur d’obtenir quelque chose de super perpendiculaire, j’ai vais encore devoir faire des ajustements)&lt;a href=&quot;https://lh5.googleusercontent.com/-xHcVo52VqKo/UWxlJLAMuhI/AAAAAAAAFTE/ScHGOTVJxCI/s1024/IMGP7592.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7592.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-xHcVo52VqKo/UWxlJLAMuhI/AAAAAAAAFTE/ScHGOTVJxCI/s600/IMGP7592.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ici un montage à blanc de l’axe de la roue avec les barrages :&lt;a href=&quot;https://lh5.googleusercontent.com/-1PJj3o8NgsU/UWxlHmsSUXI/AAAAAAAAFS8/_z0cTaDyReY/s1024/IMGP7596.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7596.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-1PJj3o8NgsU/UWxlHmsSUXI/AAAAAAAAFS8/_z0cTaDyReY/s600/IMGP7596.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite j’ai collé les barrages collés et je les ai maintenus en pressions avec des vis !&lt;a href=&quot;https://lh5.googleusercontent.com/-VzfyQfWJZs8/UWxlGWerfTI/AAAAAAAAFS0/2NDzFjW5Jko/s1024/IMGP7599.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7599.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-VzfyQfWJZs8/UWxlGWerfTI/AAAAAAAAFS0/2NDzFjW5Jko/s600/IMGP7599.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà ! Prochaine étape le montage final de l’axe et le collage des contres éclisses supérieures avant de tabler !!!&lt;/p&gt;
+
+&lt;p&gt;A bientôt&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Apr 2013 09:44:00 +0200</pubDate>
+        <link>http://localhost:4000/axe/barrage/bouton%20de%20ceinture/caisse%20de%20raisonnance/perceuse/roue/2013/04/16/boutons-de-ceinture-axe-et-barrages.html</link>
+        <guid isPermaLink="true">http://localhost:4000/axe/barrage/bouton%20de%20ceinture/caisse%20de%20raisonnance/perceuse/roue/2013/04/16/boutons-de-ceinture-axe-et-barrages.html</guid>
+      </item>
+    
+      <item>
+        <title>Collage de la ceinture d&#39;éclisses avec le fond</title>
+        <description>&lt;!--:en--&gt;
+&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;After a long Easter weekend I’m back with the last achievements.&lt;/p&gt;
+
+&lt;p&gt;Here is the back with the lower bridges once glued :
+&lt;a href=&quot;https://lh3.googleusercontent.com/-3XJBgs9SvGc/UVv3qziwTsI/AAAAAAAAFSc/XRvUj9q3p0k/s1024/IMGP7485.jpg&quot;&gt;&lt;img alt=&quot;IMGP7485.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-3XJBgs9SvGc/UVv3qziwTsI/AAAAAAAAFSc/XRvUj9q3p0k/s600/IMGP7485.jpg&quot; width=&quot;600&quot; height=&quot;402&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I started by gluing the wood piece (on the pegbox side) piece with the 2 lateral sides :
+&lt;a href=&quot;https://lh5.googleusercontent.com/-0i259XU0Vcs/UVv3sOStt6I/AAAAAAAAFSk/r2aPeJvSfis/s1024/IMGP7484.jpg&quot;&gt;&lt;img alt=&quot;IMGP7484.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-0i259XU0Vcs/UVv3sOStt6I/AAAAAAAAFSk/r2aPeJvSfis/s600/IMGP7484.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once it’s dried !
+&lt;a href=&quot;https://lh4.googleusercontent.com/-qVkkJhk8Eec/UVv3pkFmsOI/AAAAAAAAFSU/qRViiEFvQU8/s1024/IMGP7486.jpg&quot;&gt;&lt;img alt=&quot;IMGP7486.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-qVkkJhk8Eec/UVv3pkFmsOI/AAAAAAAAFSU/qRViiEFvQU8/s600/IMGP7486.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here I’m cutting (into some spare parts used for making the sides) some 1cm wide strips in order to do the lower linings !
+&lt;a href=&quot;https://lh4.googleusercontent.com/--ESt1f0GDVA/UVv3oaPP9JI/AAAAAAAAFSM/P7V4r_7DZ1s/s1024/IMGP7487.jpg&quot;&gt;&lt;img alt=&quot;IMGP7487.jpg&quot; src=&quot;https://lh4.googleusercontent.com/--ESt1f0GDVA/UVv3oaPP9JI/AAAAAAAAFSM/P7V4r_7DZ1s/s600/IMGP7487.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And then I glued them on the sides !
+&lt;a href=&quot;https://lh3.googleusercontent.com/-tkVqrPWIus0/UVv3nM-fR-I/AAAAAAAAFSE/vv2hHsnRMlc/s1024/IMGP7488.jpg&quot;&gt;&lt;img alt=&quot;IMGP7488.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-tkVqrPWIus0/UVv3nM-fR-I/AAAAAAAAFSE/vv2hHsnRMlc/s600/IMGP7488.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-6oKMO85zhtI/UVv3l12c66I/AAAAAAAAFR8/2YAyhodfdy8/s1024/IMGP7490.jpg&quot;&gt;&lt;img alt=&quot;IMGP7490.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-6oKMO85zhtI/UVv3l12c66I/AAAAAAAAFR8/2YAyhodfdy8/s600/IMGP7490.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I planned it and I adjusted the junction of the back with the sides :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-Ed38ygGKXcc/UVv3ktF6lQI/AAAAAAAAFR0/HIXbi7_zqpc/s1024/IMGP7491.jpg&quot;&gt;&lt;img alt=&quot;IMGP7491.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-Ed38ygGKXcc/UVv3ktF6lQI/AAAAAAAAFR0/HIXbi7_zqpc/s600/IMGP7491.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-lFgA7f0G0MU/UVv3jQ8j48I/AAAAAAAAFRs/MgkRRTJhfK8/s1024/IMGP7492.jpg&quot;&gt;&lt;img alt=&quot;IMGP7492.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-lFgA7f0G0MU/UVv3jQ8j48I/AAAAAAAAFRs/MgkRRTJhfK8/s600/IMGP7492.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I glued the back and the sides together :
+&lt;a href=&quot;https://lh6.googleusercontent.com/-MjbUvZ2OmQM/UVv3iRh1-dI/AAAAAAAAFRk/FjRH8axZv1o/s1024/IMGP7493.jpg&quot;&gt;&lt;img alt=&quot;IMGP7493.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-MjbUvZ2OmQM/UVv3iRh1-dI/AAAAAAAAFRk/FjRH8axZv1o/s600/IMGP7493.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-taJAb_1UPP0/UVv3hMa4OhI/AAAAAAAAFRc/iGNehpBbJOM/s1024/IMGP7494.jpg&quot;&gt;&lt;img alt=&quot;IMGP7494.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-taJAb_1UPP0/UVv3hMa4OhI/AAAAAAAAFRc/iGNehpBbJOM/s600/IMGP7494.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One dried : (It’s starting to look like a gurdy :D)
+&lt;a href=&quot;https://lh4.googleusercontent.com/-2P-VO8mINqo/UVv3f_iZqRI/AAAAAAAAFRU/BDX3d44n_Hk/s1024/IMGP7496.jpg&quot;&gt;&lt;img alt=&quot;IMGP7496.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-2P-VO8mINqo/UVv3f_iZqRI/AAAAAAAAFRU/BDX3d44n_Hk/s600/IMGP7496.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As I needed to reduce the thickness of the soundboard to 3mm, I built up a thickness gauge using a used dial indicator bought for 10 € and some plywood ! (I took the idea on this website &lt;a href=&quot;http://lutherie-guitare.org/wordpress/fabrication-dune-jauge-depaisseur/&quot;&gt;http://lutherie-guitare.org/wordpress/fabrication-dune-jauge-depaisseur/&lt;/a&gt;)
+&lt;a href=&quot;https://lh6.googleusercontent.com/-5oz7FyFA2vU/UVv3e8zbaeI/AAAAAAAAFRM/GjkxVkk9YC8/s1024/IMGP7497.jpg&quot;&gt;&lt;img alt=&quot;IMGP7497.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-5oz7FyFA2vU/UVv3e8zbaeI/AAAAAAAAFRM/GjkxVkk9YC8/s600/IMGP7497.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh5.googleusercontent.com/-YOGjVZ9Os20/UVv3dkCzJsI/AAAAAAAAFRE/srNBDZdXVEo/s1024/IMGP7499.jpg&quot;&gt;&lt;img alt=&quot;IMGP7499.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-YOGjVZ9Os20/UVv3dkCzJsI/AAAAAAAAFRE/srNBDZdXVEo/s600/IMGP7499.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that I had to test my new homemade tool so I started to reduce the soundboard !
+&lt;a href=&quot;https://lh5.googleusercontent.com/-2AL1WEPBhis/UVv3ccQoVZI/AAAAAAAAFQ8/WBXhBXr5H3g/s1024/IMGP7500.jpg&quot;&gt;&lt;img alt=&quot;IMGP7500.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-2AL1WEPBhis/UVv3ccQoVZI/AAAAAAAAFQ8/WBXhBXr5H3g/s600/IMGP7500.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-7Zpc5_j1UVE/UVv3ZjXOR-I/AAAAAAAAFQ0/UBgF8HWobGQ/s1024/IMGP7501.jpg&quot;&gt;&lt;img alt=&quot;IMGP7501.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-7Zpc5_j1UVE/UVv3ZjXOR-I/AAAAAAAAFQ0/UBgF8HWobGQ/s600/IMGP7501.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was able to reduce it between 3 and 4 mm but I still need to do some finishing in some areas !&lt;/p&gt;
+
+&lt;p&gt;See you soon !&lt;!--:--&gt;&lt;!--:fr--&gt;Bonjour,&lt;/p&gt;
+
+&lt;p&gt;Après un weekend de pâques prolongé me voici de retour avec les derniers avancements.&lt;/p&gt;
+
+&lt;p&gt;Tout d’abord pour reprendre la suite de la dernière fois, voici le fond avec les barrages une fois collés :
+&lt;a href=&quot;https://lh3.googleusercontent.com/-3XJBgs9SvGc/UVv3qziwTsI/AAAAAAAAFSc/XRvUj9q3p0k/s1024/IMGP7485.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7485.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-3XJBgs9SvGc/UVv3qziwTsI/AAAAAAAAFSc/XRvUj9q3p0k/s600/IMGP7485.jpg&quot; width=&quot;600&quot; height=&quot;402&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sinon j’ai d’abord attaqué par coller le support coté chevillier avec les 2 éclisses latérales :
+&lt;a href=&quot;https://lh5.googleusercontent.com/-0i259XU0Vcs/UVv3sOStt6I/AAAAAAAAFSk/r2aPeJvSfis/s1024/IMGP7484.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7484.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-0i259XU0Vcs/UVv3sOStt6I/AAAAAAAAFSk/r2aPeJvSfis/s600/IMGP7484.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Du coup une fois sec on obtient la ceinture d’éclisse finie !
+&lt;a href=&quot;https://lh4.googleusercontent.com/-qVkkJhk8Eec/UVv3pkFmsOI/AAAAAAAAFSU/qRViiEFvQU8/s1024/IMGP7486.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7486.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-qVkkJhk8Eec/UVv3pkFmsOI/AAAAAAAAFSU/qRViiEFvQU8/s600/IMGP7486.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Découpage (dans des chutes qui étaient en trop pour les éclisses) de bandes de 1cm de large afin de réaliser les contre-éclisses inférieures !
+&lt;a href=&quot;https://lh4.googleusercontent.com/--ESt1f0GDVA/UVv3oaPP9JI/AAAAAAAAFSM/P7V4r_7DZ1s/s1024/IMGP7487.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7487.jpg&quot; src=&quot;https://lh4.googleusercontent.com/--ESt1f0GDVA/UVv3oaPP9JI/AAAAAAAAFSM/P7V4r_7DZ1s/s600/IMGP7487.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Puis collages !
+&lt;a href=&quot;https://lh3.googleusercontent.com/-tkVqrPWIus0/UVv3nM-fR-I/AAAAAAAAFSE/vv2hHsnRMlc/s1024/IMGP7488.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7488.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-tkVqrPWIus0/UVv3nM-fR-I/AAAAAAAAFSE/vv2hHsnRMlc/s600/IMGP7488.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh3.googleusercontent.com/-6oKMO85zhtI/UVv3l12c66I/AAAAAAAAFR8/2YAyhodfdy8/s1024/IMGP7490.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7490.jpg&quot; src=&quot;https://lh3.googleusercontent.com/-6oKMO85zhtI/UVv3l12c66I/AAAAAAAAFR8/2YAyhodfdy8/s600/IMGP7490.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite rabotage et ajustage de la jonction éclisses/fond :
+&lt;a href=&quot;https://lh4.googleusercontent.com/-Ed38ygGKXcc/UVv3ktF6lQI/AAAAAAAAFR0/HIXbi7_zqpc/s1024/IMGP7491.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7491.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-Ed38ygGKXcc/UVv3ktF6lQI/AAAAAAAAFR0/HIXbi7_zqpc/s600/IMGP7491.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-lFgA7f0G0MU/UVv3jQ8j48I/AAAAAAAAFRs/MgkRRTJhfK8/s1024/IMGP7492.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7492.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-lFgA7f0G0MU/UVv3jQ8j48I/AAAAAAAAFRs/MgkRRTJhfK8/s600/IMGP7492.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Puis j’ai collé le fond et la ceinture d’éclisses ensemble :
+&lt;a href=&quot;https://lh6.googleusercontent.com/-MjbUvZ2OmQM/UVv3iRh1-dI/AAAAAAAAFRk/FjRH8axZv1o/s1024/IMGP7493.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7493.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-MjbUvZ2OmQM/UVv3iRh1-dI/AAAAAAAAFRk/FjRH8axZv1o/s600/IMGP7493.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-taJAb_1UPP0/UVv3hMa4OhI/AAAAAAAAFRc/iGNehpBbJOM/s1024/IMGP7494.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7494.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-taJAb_1UPP0/UVv3hMa4OhI/AAAAAAAAFRc/iGNehpBbJOM/s600/IMGP7494.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois sec : (ça commence à ressembler à une vielle :D)
+&lt;a href=&quot;https://lh4.googleusercontent.com/-2P-VO8mINqo/UVv3f_iZqRI/AAAAAAAAFRU/BDX3d44n_Hk/s1024/IMGP7496.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7496.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-2P-VO8mINqo/UVv3f_iZqRI/AAAAAAAAFRU/BDX3d44n_Hk/s600/IMGP7496.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite grâce à un comparateur acheté sur leboncoin pour 10€ et une chute de contre-plaqué, je me suis construit une jauge d’épaisseur afin de pouvoir réduire la table de la vielle à 3mm d’épaisseur ! (merci à ce site pour l’idée &lt;a href=&quot;http://lutherie-guitare.org/wordpress/fabrication-dune-jauge-depaisseur/&quot;&gt;http://lutherie-guitare.org/wordpress/fabrication-dune-jauge-depaisseur/&lt;/a&gt;)
+&lt;a href=&quot;https://lh6.googleusercontent.com/-5oz7FyFA2vU/UVv3e8zbaeI/AAAAAAAAFRM/GjkxVkk9YC8/s1024/IMGP7497.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7497.jpg&quot; src=&quot;https://lh6.googleusercontent.com/-5oz7FyFA2vU/UVv3e8zbaeI/AAAAAAAAFRM/GjkxVkk9YC8/s600/IMGP7497.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh5.googleusercontent.com/-YOGjVZ9Os20/UVv3dkCzJsI/AAAAAAAAFRE/srNBDZdXVEo/s1024/IMGP7499.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7499.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-YOGjVZ9Os20/UVv3dkCzJsI/AAAAAAAAFRE/srNBDZdXVEo/s600/IMGP7499.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite il me fallait tester le nouvel outil maison donc j’ai commencé de réduire la table !
+&lt;a href=&quot;https://lh5.googleusercontent.com/-2AL1WEPBhis/UVv3ccQoVZI/AAAAAAAAFQ8/WBXhBXr5H3g/s1024/IMGP7500.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7500.jpg&quot; src=&quot;https://lh5.googleusercontent.com/-2AL1WEPBhis/UVv3ccQoVZI/AAAAAAAAFQ8/WBXhBXr5H3g/s600/IMGP7500.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://lh4.googleusercontent.com/-7Zpc5_j1UVE/UVv3ZjXOR-I/AAAAAAAAFQ0/UBgF8HWobGQ/s1024/IMGP7501.jpg&quot;&gt;&lt;img class=&quot;alignnone&quot; alt=&quot;IMGP7501.jpg&quot; src=&quot;https://lh4.googleusercontent.com/-7Zpc5_j1UVE/UVv3ZjXOR-I/AAAAAAAAFQ0/UBgF8HWobGQ/s600/IMGP7501.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Je suis arrivé à avoir entre 3 et 4 mm partout donc il me reste plus que des finitions maintenant !&lt;/p&gt;
+
+&lt;p&gt;A bientôt !&lt;!--:--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Apr 2013 08:08:00 +0200</pubDate>
+        <link>http://localhost:4000/caisse%20de%20raisonnance/contre-%C3%A9clisse/%C3%A9clisse/fond/jauge%20d'%C3%A9paisseur/2013/04/04/collage-de-la-ceinture-d-eclisses-avec-le-fond.html</link>
+        <guid isPermaLink="true">http://localhost:4000/caisse%20de%20raisonnance/contre-%C3%A9clisse/%C3%A9clisse/fond/jauge%20d'%C3%A9paisseur/2013/04/04/collage-de-la-ceinture-d-eclisses-avec-le-fond.html</guid>
+      </item>
+    
   </channel>
 </rss>

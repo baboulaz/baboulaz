@@ -19,8 +19,15 @@
         /____/                                 /____/                          
 
 {% endcomment %}
+{% assign data_nav = site.data.navigation %}
+{% if page.lang == 'en' %}
+	{% assign data_nav = site.data.navigation_en %}
+{% endif %}
       <ul class="right">
-        {% for link in site.data.navigation %}
+	    {% for t in page.translations %}
+			<li><a href="{{ t.url }}"><span class="lang-{{ t.lang }}">&nbsp;</span>&nbsp;{{ t.lang | language_name }}</a></li>
+		{% endfor %}
+        {% for link in data_nav %}
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
@@ -74,7 +81,7 @@
 
 {% endcomment %}
       <ul class="left">
-        {% for link in site.data.navigation %}
+        {% for link in data_nav %}
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}

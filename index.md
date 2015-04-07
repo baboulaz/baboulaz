@@ -11,4 +11,5 @@ header:
     image_fullwidth: logo.jpg
 
 lang: fr
+translation_id: fcdbc7e82b45346d67cced3523a2f238
 --- 

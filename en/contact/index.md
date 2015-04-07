@@ -4,6 +4,8 @@ title: Contact me
 date: 2013-03-18 07:51
 author: admin
 comments: true
+lang: en
+translation_id: fcdbc7e82b45346d67cced3523a2f239
 ---
 <strong>Baptiste SCHIEBERLEIN</strong>
 

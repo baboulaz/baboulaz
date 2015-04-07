@@ -3,6 +3,23 @@
 ---
 @charset "utf-8";
 
+span.lang-en {
+	background: url("/assets/img/en.png") no-repeat right top;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	line-height: 14px;
+}
+
+span.lang-fr {
+	background: url("/assets/img/fr.png") no-repeat right top;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	line-height: 14px;
+}
+
+
 @import "functions.scss";
 @import "02_settings_colors.scss";
 @import "03_settings_typography.scss";

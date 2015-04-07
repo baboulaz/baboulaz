@@ -33,7 +33,22 @@
   
     
     <url>
-      <loc>http://vielle2.schieberlein.com/assemblage/finission/vernis/2013/10/23/assemblage-final.html</loc>
+      <loc>http://vielle2.schieberlein.com/en/2013/10/23/final-assembling.html</loc>
+      
+        <lastmod>2013-10-23T07:31:00+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://vielle2.schieberlein.com/fr/2013/10/23/assemblage-final.html</loc>
       
         <lastmod>2013-10-23T07:31:00+02:00</lastmod>
       
@@ -274,9 +289,39 @@
   
     
     <url>
+      <loc>http://vielle2.schieberlein.com/blog/archive/</loc>
+      
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://vielle2.schieberlein.com/en/blog/archive/</loc>
+      
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://vielle2.schieberlein.com/feed.xml</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -291,7 +336,37 @@
     <url>
       <loc>http://vielle2.schieberlein.com/humans.txt</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://vielle2.schieberlein.com/en/blog/</loc>
+      
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://vielle2.schieberlein.com/blog/</loc>
+      
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -306,7 +381,7 @@
     <url>
       <loc>http://vielle2.schieberlein.com/en/</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -321,7 +396,37 @@
     <url>
       <loc>http://vielle2.schieberlein.com/</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://vielle2.schieberlein.com/en/contact/</loc>
+      
+        <lastmod>2013-03-18T07:51:00+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://vielle2.schieberlein.com/contact/</loc>
+      
+        <lastmod>2013-03-18T07:51:00+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -336,7 +441,7 @@
     <url>
       <loc>http://vielle2.schieberlein.com/css/main.css</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -351,7 +456,7 @@
     <url>
       <loc>http://vielle2.schieberlein.com/robots.txt</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -366,7 +471,7 @@
     <url>
       <loc>http://vielle2.schieberlein.com/sitemap.xml</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -381,7 +486,7 @@
     <url>
       <loc>http://vielle2.schieberlein.com/assets/css/styles_feeling_responsive.css</loc>
       
-        <lastmod>2015-04-03T14:44:28+02:00</lastmod>
+        <lastmod>2015-04-07T11:30:01+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
